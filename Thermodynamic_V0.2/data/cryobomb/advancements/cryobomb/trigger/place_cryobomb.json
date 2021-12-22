@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "cryobomb": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:blue_ice"
+				}
+            }
+        },
+		"rewards": {
+			"function":"cryobomb:place_cryobomb/place_cryobomb"}
+    }
+}

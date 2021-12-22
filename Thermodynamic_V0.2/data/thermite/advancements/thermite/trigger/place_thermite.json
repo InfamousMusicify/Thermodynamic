@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "thermite": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:ancient_debris"
+				}
+            }
+        },
+		"rewards": {
+			"function":"thermite:place_thermite/place_thermite"}
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_ice"
+        },
+        "title": {
+            "text": "Cryo-Bomb                                                  ",
+            "color": "white",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "Place blue ice on a magma block to create a Cryo-Bomb.\nPlacing Packed Ice next to magma will create a Mini Cryo-Bomb",
+            "color": "green",
+            "bold": false,
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/thermodynamic",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

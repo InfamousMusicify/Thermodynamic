@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_leggings"
+        },
+        "title": {
+            "text": "Thermodynamic Crafting                                                                         ",
+            "color": "white",
+            "bold": false,
+            "italic": false
+        },
+		"description": ["",{"text":"Place Blue Ice and Ancient debris in a crafting grid, spit any leggings on the ground and eat the item you made to craft Thermodynamic Armor.","color":"dark_green"},{"text":"\n"},{"text":"If you are wearing a Netherite Chestplate or a Chains+ Chest piece you will not be damaged by the blast!","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+    },
+    "parent": "main:main/cryo/cryo",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
