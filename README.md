@@ -1,5 +1,5 @@
 
-# [🎥Thermodynamic]() - Minecraft: Java Edition - Data Pack 
+# [🎥Thermodynamic]()
 ### Thermodynamic  - Minecraft: Java Edition - Data Pack
 
 __Create a super cold blast!  Melt Pesky Obsidian!__   
