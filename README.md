@@ -16,7 +16,7 @@ Water and Ice nearby will be evaporated.
 Standing to close may hurt._  
 
 __Crafting Thermodynamic Armor:__  
-Place Blue Ice and Ancient debris in a crafting grid, spit any leggings on the ground and eat the item you made to craft Thermodynamic Armor. 
+Place Blue Ice and a Netherite Block in a crafting grid, spit any leggings on the ground and eat the item you made to craft Thermodynamic Armor. 
 *If you are wearing a Netherite Chestplate/Thermodynamic Armor or a Chains+ Chest piece you will not be damaged by the blast!*  
 		
 #### If you are wearing a Netherite Chestplate or a __*[Chains+](https://github.com/InfamousMusicify/Chains-Plus)*__ Chest piece you will not be damaged by the blast! 
