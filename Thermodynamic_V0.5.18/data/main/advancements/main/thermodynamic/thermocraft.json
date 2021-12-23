@@ -9,7 +9,7 @@
             "bold": false,
             "italic": false
         },
-		"description": ["",{"text":"Place Blue Ice and a Netherite Block in a crafting grid, spit any Leggings on the ground and eat the item you made to craft Thermodynamic Armor.","color":"dark_green"},{"text":"\n"},{"text":"If you are wearing a Netherite Chestplate or a Chains+ Chest piece you will not be damaged by the blast!","color":"gold"}],
+		"description": ["",{"text":"Place Blue Ice and a Netherite Block in a crafting grid, spit any Leggings on the ground and eat the item you crafted to create Thermodynamic Armor.","color":"dark_green"},{"text":"\n"},{"text":"If you are wearing a Netherite Chestplate or a Chains+ Chest piece you will not be damaged by the blast!","color":"gold"}],
 		"show_toast": false,
 		"announce_to_chat": false
     },
