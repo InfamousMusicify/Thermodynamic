@@ -3,11 +3,11 @@
         "thermoimmune_crafted": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "thermite:thermoimmune_rcp"
+                "recipe": "thermodynamic:thermoimmune_rcp"
             }
         }
     },
     "rewards": {
-        "function": "thermite:crafted_thermoimmune"
+        "function": "thermodynamic:crafted_thermoimmune"
     }
 }
