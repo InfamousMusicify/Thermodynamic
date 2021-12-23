@@ -3,7 +3,7 @@
 ### Thermodynamic  - Minecraft: Java Edition - Data Pack
 
 __Create a super cold blast!  Melt Pesky Obsidian!__   
-*Cool lava and freeze water!  Evaporate ice and water!*     
+*Cool lava and freeze water!  Evaporate water and ice!*     
 
 __How to Use Cryo-Bomb:__  
 _Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, the blast will turn nearby water/lava to its solid form.  
