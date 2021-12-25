@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "thermoimmune_crafted": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "thermodynamic:thermoimmune_rcp"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thermodynamic:crafted_thermoimmune"
+    }
+}
