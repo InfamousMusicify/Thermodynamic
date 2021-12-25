@@ -4,7 +4,7 @@
                 "trigger": "minecraft:consume_item",
             "conditions": {
                     "item": {
-                        "item": "minecraft:beetroot",
+                        "item": "minecraft:suspicious_stew",
                     "nbt": "{Tags: [\"Thermodynamic\"]}"
                 }
             }

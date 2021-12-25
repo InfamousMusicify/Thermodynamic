@@ -1,5 +1,5 @@
 # craft thermoimmune
-advancement revoke @s only thermodynamic:thermoimmune_use_adv
+advancement revoke @s only thermodynamic:use_thermoimmune_adv
 # data merge entity @e[type=item] {Item:{id:"minecraft:iron_leggings",Count:1b,tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']},Tags:["Thermodynamic"]}}}
 
 data merge entity @e[limit=1,type=minecraft:item,nbt={Item:{id:"minecraft:leather_leggings",Count:1b}},sort=nearest,distance=..15] {Item:{id:"minecraft:leather_leggings",Count:1b,tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']},Tags:["Thermodynamic"]}}}
