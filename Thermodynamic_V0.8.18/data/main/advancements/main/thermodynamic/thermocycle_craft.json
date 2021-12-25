@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crimson_button"
+        },
+        "title": {
+            "text": "Thermal-Cycle                                                      ",
+            "color": "white",
+            "bold": false,
+            "italic": false
+        },
+		"description": ["",{"text":"Craft Packed Ice and Ancient Debris together.","color":"green"},{"text":"\n"},{"text":"Eat the Thermal-Cycle item to toggle Bombs On/Off.","color":"dark_green"}],
+		"show_toast": false,
+		"announce_to_chat": false
+    },
+    "parent": "main:main/thermite/thermite",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
