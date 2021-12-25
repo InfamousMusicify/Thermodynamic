@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"thermite:load",
-		"cryobomb:load"
+		"cryobomb:load",
+		"thermodynamic:load"
 	]
 }

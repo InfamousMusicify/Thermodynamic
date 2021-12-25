@@ -16,7 +16,7 @@
         ]
     ],
     "rewards": {
-        "function": "thermodynamic:create_thermoimmune"
+        "function": "thermodynamic:use_thermoimmune"
 		}
     }
 }

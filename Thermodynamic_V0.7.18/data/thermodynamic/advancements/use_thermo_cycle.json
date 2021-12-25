@@ -1,22 +1,21 @@
 {
     "criteria": {
-            "thermoimmune": {
+            "thermo_cycle": {
                 "trigger": "minecraft:consume_item",
             "conditions": {
                     "item": {
-                        "item": "minecraft:beetroot",
-                    "nbt": "{Tags: [\"Thermodynamic\"]}"
+                        "item": "minecraft:suspicious_stew",
+                    "nbt": "{Tags: [\"thermo_cycle\"]}"
                 }
             }
         }
     },
     "requirements": [
             [
-                "thermoimmune"
+                "thermo_cycle"
         ]
     ],
     "rewards": {
-        "function": "thermite:craft"
-		}
+        "function": "thermodynamic:use_thermo_cycle"
     }
 }
