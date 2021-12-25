@@ -6,17 +6,30 @@ __Create a super cold blast!  Melt Pesky Obsidian!__
 *Cool lava and freeze water!  Evaporate water and ice!*     
 
 __How to Use Cryo-Bomb:__  
-_Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, the blast will turn nearby water/lava to its solid form.  
-Place Packed Ice next to Magma to create a mini Cryo-Bomb! (turns lava to magma, freezes less water)  
-Standing to close may hurt._  
+  
+    Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, 
+    the blast will turn nearby water/lava to its solid form.  
+    
+    Place Packed Ice next to Magma to create a mini Cryo-Bomb! 
+    (turns lava to magma, freezes less water)  
+    Standing to close may hurt!  
 
 __How to Use Thermite:__  
-_Place a Ancient Debris on a Magma Block and it will create Thermite, the reaction will turn nearby Obsidian into Magma.  
-Water and Ice nearby will be evaporated.  
-Standing to close may hurt._  
 
-__Crafting Thermodynamic Armor:__  
-Place Blue Ice and a Netherite Block in a crafting grid, spit any leggings on the ground and eat the item you made to craft Thermodynamic Armor. 	
+    Place a Ancient Debris on a Magma Block and it will create Thermite, 
+    the reaction will turn nearby Obsidian into Magma.  
+    Water and Ice nearby will be evaporated.  
+    Standing to close may hurt!  
+
+__Thermal-Cycle:__  
+
+    Craft Packed Ice and Ancient Debris together.    
+    Eat the Thermal-Cycle item to toggle Bombs On/Off.  
+
+__Crafting Thermodynamic Armor:__   
+
+    Craft Blue Ice and a Netherite Block together, 
+    drop any Leggings on the ground and eat the item you crafted to create Thermodynamic Armor.  
 
 #### *If you are wearing a Netherite Chestplate/Thermodynamic Armor or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
 
