@@ -1,25 +1,25 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:blaze_powder"
+            "item": "minecraft:ancient_debris"
         },
         "title": {
-            "text": "Thermodynamic     ",
+            "text": "Thermite                                                                         ",
             "color": "white",
             "bold": false,
             "italic": false
         },
         "description": {
-            "text": "Thermite and Cryo-Bomb",
+            "text": "Place Ancient Debris on a Magma block to create a Thermite Reaction.",
             "color": "green",
             "bold": false,
-            "italic": true
+            "italic": false
         },
         "show_toast": false,
         "announce_to_chat": false,
         "frame": "goal"
     },
-    "parent": "main:main/death",
+    "parent": "inhauspacks:thermodynamic",
     "criteria": {
         "tick": {
             "trigger": "minecraft:tick"

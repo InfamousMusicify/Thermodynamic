@@ -18,7 +18,7 @@
 		"show_toast": false,
 		"announce_to_chat": false
     },
-    "parent": "main:main/cryo/cryo",
+    "parent": "inhauspacks:cryo/cryo",
     "criteria": {
         "tick": {
             "trigger": "minecraft:tick"

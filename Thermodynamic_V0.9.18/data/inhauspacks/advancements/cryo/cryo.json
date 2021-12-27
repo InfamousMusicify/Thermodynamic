@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Create a super cold blast!                                    ",
+        "description": ["",
+
+            {"text":"Turn lava to basalt and water to ice.","color":"green"},{"text":"\n"},
+            {"text":"Mini Cryo-Bomb turns lava to magma, freezes less water.","color":"dark_green"},{"text":"\n"},
+            {"text":"Standing to close will hurt!","color":"red"}
+
+        ],
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:cryo",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
