@@ -14,7 +14,7 @@
 		{"text":"Thermodynamic","color":"red"},
 		{"text":" Armor.","color":"dark_green"},
 		{"text":"\n"},
-		{"text":"If you are wearing Thermodynamic pants, Netherite Chestplate, Plated Elytra or a Chains+ Chestplate you will take NO damage the blast!","color":"gold"}],
+		{"text":"If you are wearing Thermodynamic pants, Netherite Chestplate, Plated Elytra or a Chains+ Chestplate you will take NO damage from the blast!","color":"gold"}],
 		"show_toast": false,
 		"announce_to_chat": false
     },
