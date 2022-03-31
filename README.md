@@ -31,7 +31,7 @@ __Crafting Thermodynamic Armor:__
     Craft Blue Ice and a Netherite Block together, 
     drop any Leggings on the ground and eat the item you crafted to create Thermodynamic Armor.  
 
-#### *If you are wearing a Netherite Chestplate/Thermodynamic Armor or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
+#### *If you are wearing a Netherite Chestplate/Plated Elytra/Thermodynamic Armor or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
 
 ### Hit the advancements key to see in game info and help!
 
