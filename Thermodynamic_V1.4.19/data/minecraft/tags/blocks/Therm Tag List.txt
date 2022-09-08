@@ -1,16 +1,21 @@
 {
 	"values":[
+#	Unique:
+		"minecraft:conduit",
+#	Entites: (drythermlog)
 		"minecraft:amethyst_cluster",
 		"minecraft:budding_amethyst",
 		"minecraft:large_amethyst_bud",
 		"minecraft:medium_amethyst_bud",
 		"minecraft:small_amethyst_bud",
 		"minecraft:pointed_dripstone",
+#	Utility entities: (drythermlog)
 		"minecraft:chest",
 		"minecraft:ender_chest",
 		"minecraft:trapped_chest",
 		"minecraft:scaffolding",
 		"minecraft:ladder",
+#	Signs: (drythermlog)
         "minecraft:acacia_sign",
 		"minecraft:birch_sign",
 		"minecraft:crimson_sign",
@@ -27,6 +32,7 @@
 		"minecraft:oak_wall_sign",
 		"minecraft:spruce_wall_sign",
 		"minecraft:warped_wall_sign",
+#	Trapdoors: (drythermlog)
 		"minecraft:acacia_trapdoor",
         "minecraft:birch_trapdoor",
         "minecraft:crimson_trapdoor",
@@ -36,13 +42,57 @@
         "minecraft:oak_trapdoor",
         "minecraft:spruce_trapdoor",
         "minecraft:warped_trapdoor",
+#	Redstone: (drythermlog)
 		"minecraft:activator_rail",
 		"minecraft:rail",
 		"minecraft:detector_rail",
 		"minecraft:powered_rail",
 		"minecraft:sculk_sensor",
+#	Living:	(thermlog)
+		"minecraft:kelp_plant",
+		"minecraft:kelp",
+		"minecraft:seagrass",
+		"minecraft:tall_seagrass",
+		"minecraft:sea_pickle",
+#	Dry Life: (drythermlog)
+		"minecraft:big_dripleaf",
+		"minecraft:glow_lichen",
+		"minecraft:hanging_roots",
+#	Coral:	(drythermlog)
+		"minecraft:dead_brain_coral",
+		"minecraft:dead_brain_coral_wall_fan",
+		"minecraft:dead_brain_coral_fan",
+		"minecraft:dead_bubble_coral",
+		"minecraft:dead_bubble_coral_wall_fan",
+		"minecraft:dead_bubble_coral_fan",
+		"minecraft:dead_fire_coral",
+		"minecraft:dead_fire_coral_wall_fan",
+		"minecraft:dead_fire_coral_fan",
+		"minecraft:dead_horn_coral",
+		"minecraft:dead_horn_coral_wall_fan",
+		"minecraft:dead_horn_coral_fan",
+		"minecraft:dead_tube_coral",
+		"minecraft:dead_tube_coral_wall_fan",
+		"minecraft:dead_tube_coral_fan",
+		"minecraft:brain_coral",
+		"minecraft:brain_coral_wall_fan",
+		"minecraft:brain_coral_fan",
+		"minecraft:bubble_coral",
+		"minecraft:bubble_coral_wall_fan",
+		"minecraft:bubble_coral_fan",
+		"minecraft:fire_coral",
+		"minecraft:fire_coral_wall_fan",
+		"minecraft:fire_coral_fan",
+		"minecraft:horn_coral",
+		"minecraft:horn_coral_wall_fan",
+		"minecraft:horn_coral_fan",
+		"minecraft:tube_coral",
+		"minecraft:tube_coral_wall_fan",
+		"minecraft:tube_coral_fan",
+#	Blocks: (drythermlog)
 		"minecraft:chain",
 		"minecraft:lightning_rod",
+#	Fences: (drythermlog)
 		"minecraft:acacia_fence",
 		"minecraft:birch_fence",
 		"minecraft:crimson_fence",
@@ -52,6 +102,7 @@
 		"minecraft:oak_fence",
 		"minecraft:spruce_fence",
 		"minecraft:warped_fence",
+#	Walls: (drythermlog)
 		"minecraft:brick_wall",
         "minecraft:deepslate_brick_wall",
         "minecraft:end_stone_brick_wall",
@@ -71,6 +122,7 @@
         "minecraft:prismarine_wall",
         "minecraft:red_sandstone_wall",
         "minecraft:sandstone_wall",
+#	Glasss Panes: (drythermlog)
 		"minecraft:glass_pane",
 		"minecraft:black_stained_glass_pane",
 		"minecraft:blue_stained_glass_pane",
@@ -88,6 +140,7 @@
 		"minecraft:red_stained_glass_pane",
 		"minecraft:white_stained_glass_pane",
 		"minecraft:yellow_stained_glass_pane",
+#	Candles: (drythermlog)
 		"minecraft:candle",
 		"minecraft:black_candle",
 		"minecraft:blue_candle",
@@ -105,6 +158,7 @@
 		"minecraft:red_candle",
 		"minecraft:white_candle",
 		"minecraft:yellow_candle",
+#	Slabs: (drythermlog)
         "minecraft:acacia_slab",
 		"minecraft:birch_slab",
 		"minecraft:crimson_slab",
@@ -168,6 +222,7 @@
         "minecraft:waxed_oxidized_cut_copper_slab",
         "minecraft:waxed_weathered_cut_copper_slab",
         "minecraft:weathered_cut_copper_slab",
+# Stairs: (drythermlog)
         "minecraft:acacia_stairs",
 		"minecraft:birch_stairs",
 		"minecraft:crimson_stairs",
@@ -225,9 +280,18 @@
         "minecraft:waxed_oxidized_cut_copper_stairs",
         "minecraft:waxed_weathered_cut_copper_stairs",
         "minecraft:weathered_cut_copper_stairs",
+#	Fire: (drythermlog)
 		"minecraft:campfire",
 		"minecraft:soul_campfire",
 		"minecraft:lantern",
-		"minecraft:soul_lantern"
+		"minecraft:soul_lantern",
+#	Water: (thermlog)
+		"minecraft:bubble_column",
+		"minecraft:water",
 	]
 }
+		"minecraft:sculk_shrieker",
+		"minecraft:sculk_vein",
+
+thermlog = absolute burn
+Drythermlog = disregard air interaction

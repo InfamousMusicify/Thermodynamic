@@ -2,20 +2,20 @@
 	"values":[
 #	Unique:
 		"minecraft:conduit",
-#	Entites: (drythermlog)
+#	Entites: (drycryolog)
 		"minecraft:amethyst_cluster",
 		"minecraft:budding_amethyst",
 		"minecraft:large_amethyst_bud",
 		"minecraft:medium_amethyst_bud",
 		"minecraft:small_amethyst_bud",
 		"minecraft:pointed_dripstone",
-#	Utility entities: (drythermlog)
+#	Utility entities: (drycryolog)
 		"minecraft:chest",
 		"minecraft:ender_chest",
 		"minecraft:trapped_chest",
 		"minecraft:scaffolding",
 		"minecraft:ladder",
-#	Signs: (drythermlog)
+#	Signs: (drycryolog)
         "minecraft:acacia_sign",
 		"minecraft:birch_sign",
 		"minecraft:crimson_sign",
@@ -32,7 +32,7 @@
 		"minecraft:oak_wall_sign",
 		"minecraft:spruce_wall_sign",
 		"minecraft:warped_wall_sign",
-#	Trapdoors: (drythermlog)
+#	Trapdoors: (drycryolog)
 		"minecraft:acacia_trapdoor",
         "minecraft:birch_trapdoor",
         "minecraft:crimson_trapdoor",
@@ -42,23 +42,23 @@
         "minecraft:oak_trapdoor",
         "minecraft:spruce_trapdoor",
         "minecraft:warped_trapdoor",
-#	Redstone: (drythermlog)
+#	Redstone: (drycryolog)
 		"minecraft:activator_rail",
 		"minecraft:rail",
 		"minecraft:detector_rail",
 		"minecraft:powered_rail",
 		"minecraft:sculk_sensor",
-#	Living:	(thermlog)
+#	Living:	(Cryolog)
 		"minecraft:kelp_plant",
 		"minecraft:kelp",
 		"minecraft:seagrass",
 		"minecraft:tall_seagrass",
 		"minecraft:sea_pickle",
-#	Dry Life: (drythermlog)
+#	Dry Life: (Cryolog)
 		"minecraft:big_dripleaf",
 		"minecraft:glow_lichen",
 		"minecraft:hanging_roots",
-#	Coral:	(drythermlog)
+#	Coral:	(Cryolog)
 		"minecraft:dead_brain_coral",
 		"minecraft:dead_brain_coral_wall_fan",
 		"minecraft:dead_brain_coral_fan",
@@ -89,10 +89,10 @@
 		"minecraft:tube_coral",
 		"minecraft:tube_coral_wall_fan",
 		"minecraft:tube_coral_fan",
-#	Blocks: (drythermlog)
+#	Blocks: (drycryolog)
 		"minecraft:chain",
 		"minecraft:lightning_rod",
-#	Fences: (drythermlog)
+#	Fences: (drycryolog)
 		"minecraft:acacia_fence",
 		"minecraft:birch_fence",
 		"minecraft:crimson_fence",
@@ -102,7 +102,7 @@
 		"minecraft:oak_fence",
 		"minecraft:spruce_fence",
 		"minecraft:warped_fence",
-#	Walls: (drythermlog)
+#	Walls: (drycryolog)
 		"minecraft:brick_wall",
         "minecraft:deepslate_brick_wall",
         "minecraft:end_stone_brick_wall",
@@ -122,7 +122,7 @@
         "minecraft:prismarine_wall",
         "minecraft:red_sandstone_wall",
         "minecraft:sandstone_wall",
-#	Glasss Panes: (drythermlog)
+#	Glasss Panes: (drycryolog)
 		"minecraft:glass_pane",
 		"minecraft:black_stained_glass_pane",
 		"minecraft:blue_stained_glass_pane",
@@ -140,7 +140,7 @@
 		"minecraft:red_stained_glass_pane",
 		"minecraft:white_stained_glass_pane",
 		"minecraft:yellow_stained_glass_pane",
-#	Candles: (drythermlog)
+#	Candles: (drycryolog)
 		"minecraft:candle",
 		"minecraft:black_candle",
 		"minecraft:blue_candle",
@@ -158,7 +158,7 @@
 		"minecraft:red_candle",
 		"minecraft:white_candle",
 		"minecraft:yellow_candle",
-#	Slabs: (drythermlog)
+#	Slabs: (drycryolog)
         "minecraft:acacia_slab",
 		"minecraft:birch_slab",
 		"minecraft:crimson_slab",
@@ -222,7 +222,7 @@
         "minecraft:waxed_oxidized_cut_copper_slab",
         "minecraft:waxed_weathered_cut_copper_slab",
         "minecraft:weathered_cut_copper_slab",
-# Stairs: (drythermlog)
+# Stairs: (drycryolog)
         "minecraft:acacia_stairs",
 		"minecraft:birch_stairs",
 		"minecraft:crimson_stairs",
@@ -280,16 +280,19 @@
         "minecraft:waxed_oxidized_cut_copper_stairs",
         "minecraft:waxed_weathered_cut_copper_stairs",
         "minecraft:weathered_cut_copper_stairs",
-#	Fire: (drythermlog)
+#	Fire: (drycryolog)
 		"minecraft:campfire",
 		"minecraft:soul_campfire",
 		"minecraft:lantern",
 		"minecraft:soul_lantern",
-#	Water: (thermlog)
+#	Water: (Cryolog)
 		"minecraft:bubble_column",
 		"minecraft:water",
 	]
 }
 
-thermlog = absolute burn
-Drythermlog = disregard air interaction
+		"minecraft:sculk_shrieker",
+		"minecraft:sculk_vein",
+
+Cryolog = absolute freeze
+DryCrylog = disregard air interaction
