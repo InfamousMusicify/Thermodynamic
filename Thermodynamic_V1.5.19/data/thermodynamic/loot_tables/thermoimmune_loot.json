@@ -3,7 +3,7 @@
     "type":"minecraft:loot","pools":[
         {"rolls":1,"entries":[
             {"type":"item","name":"minecraft:suspicious_stew","functions":[
-                {"function":"set_nbt","tag":"{CustomModelData:1,Tags: [\"Thermodynamic\"]}"},
+                {"function":"set_nbt","tag":"{CustomModelData:727501,Tags: [\"Thermodynamic\"]}"},
                 {"function":"set_name","name":[{"text":"Thermodynamic","color":"white","italic":false}]},
                 {"function":"set_lore","lore":[{"text":"Make your pants thermodynamic.","color":"gray","italic":false}]}]}]}]}
 
