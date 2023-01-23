@@ -36,7 +36,7 @@ __Crafting Thermodynamic Armor:__
 ### Hit the advancements key to see in game info and help!
 
 ## [🔗Download🔗](https://github.com/InfamousMusicify/Thermodynamic/archive/refs/heads/main.zip)  
-## [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures) 
+## [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/releases) 
 
 __[Navigate to Branches for older versions.](https://github.com/InfamousMusicify/Thermodynamic/branches)__    
 [How to Install a Datapack](https://youtu.be/JHEjZlVlqGE)  
