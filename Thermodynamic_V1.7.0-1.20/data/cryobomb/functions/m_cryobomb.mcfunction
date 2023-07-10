@@ -14,13 +14,13 @@ execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-1 ~
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace minecraft:water
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace minecraft:water
 # Water
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-2 ~-5 ~-2 ~2 ~4 ~2 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-3 ~-4 ~4 ~2 ~4 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-2 ~-5 ~-2 ~2 ~4 ~2 minecraft:air replace #minecraft:drylog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:air replace #minecraft:drylog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-3 ~-4 ~4 ~2 ~4 minecraft:air replace #minecraft:drylog[waterlogged=true]
 # everything
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-2 ~-5 ~-2 ~2 ~4 ~2 minecraft:ice replace #minecraft:cryolog
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:ice replace #minecraft:cryolog
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-3 ~-4 ~4 ~2 ~4 minecraft:ice replace #minecraft:cryolog
+execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-2 ~-5 ~-2 ~2 ~4 ~2 minecraft:ice replace #minecraft:waterlog
+execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:ice replace #minecraft:waterlog
+execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-3 ~-4 ~4 ~2 ~4 minecraft:ice replace #minecraft:waterlog
 # effect  (Chains+, Netherite Chestplate, Thermodynamic armor, and Armored Elytras will all make you immune to the blasts.)
 execute as @e[distance=..4,gamemode=!creative,gamemode=!spectator] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, tag: {armElyData: {chestplate: {id: "minecraft:netherite_chestplate"}}}}]}] unless entity @s[nbt={Inventory:[{Slot:101b, tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=m_cryo_entity,distance=..4] run function cryobomb:meffect
 

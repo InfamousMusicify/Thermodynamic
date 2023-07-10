@@ -11,13 +11,13 @@ execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-
 # conduit
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-7 ~-6 ~6 ~5 ~6 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
 # Water   -turn all things to air for thermite
-execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:air replace #minecraft:drythermlog[waterlogged=true]
-execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:air replace #minecraft:drythermlog[waterlogged=true]
-execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:air replace #minecraft:drythermlog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:air replace #minecraft:drylog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:air replace #minecraft:drylog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:air replace #minecraft:drylog[waterlogged=true]
 # Everything    -redundancy for water itself.
-execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:air replace #minecraft:thermlog
-execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:air replace #minecraft:thermlog
-execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:air replace #minecraft:thermlog
+execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:air replace #minecraft:waterlog
+execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:air replace #minecraft:waterlog
+execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:air replace #minecraft:waterlog
 # Ice
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-2 ~-5 ~-2 ~2 ~4 ~2 minecraft:air replace minecraft:ice
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:air replace minecraft:ice

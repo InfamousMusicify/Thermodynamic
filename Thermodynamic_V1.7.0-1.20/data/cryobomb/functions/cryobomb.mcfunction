@@ -13,13 +13,13 @@ execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-1 ~-1
 # conduit
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-6 ~-7 ~-6 ~6 ~5 ~6 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
 # Water - Replace "none redstone" componenets that are water logged
-execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
-execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
-execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:air replace #minecraft:drylog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:air replace #minecraft:drylog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:air replace #minecraft:drylog[waterlogged=true]
 # replace water    -water itself and related.
-execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:ice replace #minecraft:cryolog
-execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:ice replace #minecraft:cryolog
-execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:ice replace #minecraft:cryolog
+execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:ice replace #minecraft:waterlog
+execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:ice replace #minecraft:waterlog
+execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:ice replace #minecraft:waterlog
 
 
 # effect  (Chains+, Netherite Chestplate, Thermodynamic armor, and Armored Elytras will all make you immune to the blasts.)
