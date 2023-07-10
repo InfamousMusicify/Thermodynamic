@@ -5,6 +5,10 @@
 __Create a super cold blast!  Melt Pesky Obsidian!__   
 *Cool lava and freeze water!  Evaporate water and ice!*     
 
+### [🔗Download🔗](https://github.com/InfamousMusicify/Thermodynamic/blob/master/Downloads.md) - [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md)   
+
+### Hit the advancements key to see in game info and help!
+
 __How to Use Cryo-Bomb:__  
   
     Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, 
@@ -32,14 +36,8 @@ __Crafting Thermodynamic Armor:__
     drop any Leggings on the ground and eat the item you crafted to create Thermodynamic Armor.  
 
 #### *If you are wearing a Netherite Chestplate/Plated Elytra/Thermodynamic Armor or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
-
-### Hit the advancements key to see in game info and help!
-
-## [🔗Download🔗](https://github.com/InfamousMusicify/Thermodynamic/blob/master/Downloads.md)  
-## [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md) 
-
-__[Navigate to Branches for older versions.](https://github.com/InfamousMusicify/Thermodynamic/branches)__    
-[How to Install a Datapack](https://youtu.be/JHEjZlVlqGE)  
+ 
+[How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)  
 
 __OG Packs:   
 [Thermite🔗](https://github.com/InfamousMusicify/Thermite)  
