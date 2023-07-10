@@ -1,0 +1,122 @@
+
+# 1.19 No
+{
+    "criteria": {
+        "thermite": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:ancient_debris"
+				}
+            }
+        },
+		"rewards": {
+			"function":"thermite:place_thermite/place_thermite"}
+    }
+}
+
+
+
+# no 1.20 first
+{
+    "criteria": {
+        "thermite": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:ancient_debris"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "thermite"
+        ]
+    ],
+    "rewards": {
+        "function": "thermite:place_thermite/place_thermite"
+    }
+}
+
+
+# no 1.20 idea
+{
+    "criteria": {
+        "thermite": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "count": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "block": "minecraft:ancient_debris"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "thermite"
+        ]
+    ],
+    "rewards": {
+        "function": "thermite:place_thermite/place_thermite"
+    }
+}
+
+# no  has location still gives error what in the actual motherfuck....
+{
+    "criteria": {
+        "thermite": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "count": {
+                        "min": 1
+                    }
+                },
+                "location": {
+                    "block": {
+                        "block": "minecraft:ancient_debris"
+                    }
+                },
+                "block": "minecraft:ancient_debris"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "thermite"
+        ]
+    ],
+    "rewards": {
+        "function": "thermite:place_thermite/place_thermite"
+    }
+}
+
+# help from the forums -still broken erroring
+{
+    "criteria": {
+      "thermite": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": {
+            "location": {
+              "block": {
+                "blocks": [
+                  "minecraft:ancient_debris"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "thermite"
+      ]
+    ],
+    "rewards": {
+      "function": "thermite:place_thermite/place_thermite"
+    }
+  }
