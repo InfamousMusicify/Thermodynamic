@@ -10,11 +10,11 @@ execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-5 ~-
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:magma_block replace minecraft:obsidian
 # conduit
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-7 ~-6 ~6 ~5 ~6 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
-# Water
+# Water   -turn all things to air for thermite
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:air replace #minecraft:drythermlog[waterlogged=true]
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:air replace #minecraft:drythermlog[waterlogged=true]
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:air replace #minecraft:drythermlog[waterlogged=true]
-# Everything
+# Everything    -redundancy for water itself.
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:air replace #minecraft:thermlog
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:air replace #minecraft:thermlog
 execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:air replace #minecraft:thermlog
