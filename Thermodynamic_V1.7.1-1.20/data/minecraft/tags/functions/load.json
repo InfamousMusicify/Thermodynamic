@@ -1,8 +1,0 @@
-{
-	"replace": false,
-	"values": [
-		"thermite:load",
-		"cryobomb:load",
-		"thermodynamic:load"
-	]
-}

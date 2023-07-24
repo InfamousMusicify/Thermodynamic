@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_leggings"
+        },
+        "title": {
+            "text": "Thermodynamic Crafting                                                                         ",
+            "color": "white",
+            "bold": false,
+            "italic": false
+        },
+		"description": 
+		["",{"text":"Craft a Blue Ice and Ancient Debris together, and right click any Leggings with the Thermodynamic item to create ","color":"dark_green"},
+		{"text":"Thermodynamic","color":"red"},
+		{"text":" Armor.","color":"dark_green"},
+		{"text":"\n"},
+		{"text":"If you are wearing Thermodynamic Pants, Netherite Chestplate, Plated Elytra or a Chains+ Chestplate you will take NO damage from the blast!","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+    },
+    "parent": "inhauspacks:cryo/cryo",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

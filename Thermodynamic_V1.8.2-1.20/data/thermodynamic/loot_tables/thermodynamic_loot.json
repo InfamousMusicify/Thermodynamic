@@ -1,0 +1,6 @@
+
+{
+    "type":"minecraft:loot","pools":[
+        {"rolls":1,"entries":[
+            {"type":"item","name":"minecraft:pig_spawn_egg","functions":[
+                {"function":"set_nbt","tag": "{display:{Name:'{\"text\":\"Thermodynamic\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Make your pants thermodynamic.\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:727501,Tag:thermo_craft,EntityTag:{id:\"minecraft:armor_stand\",Invisible:1b,Tags:[\"thermo_craft\"]}}"}]}]}]}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "thermodynamic_crafted": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "thermodynamic:thermodynamic_rcp"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thermodynamic:crafted_thermodynamic"
+    }
+}
