@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:netherite_block"
+        },
+        {
+            "item": "minecraft:blue_ice"
+        },
+        {
+             "item": "minecraft:blue_ice"
+        },
+        {
+             "item": "minecraft:blue_ice"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

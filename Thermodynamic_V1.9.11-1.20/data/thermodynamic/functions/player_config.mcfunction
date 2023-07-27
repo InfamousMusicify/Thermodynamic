@@ -1,0 +1,22 @@
+# player_config
+
+
+tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+tellraw @s ["                Thermodynamic",{"text":" / ","color":"gray"},"Settings"]
+tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+
+# Fuses
+# hot
+tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #azide_fuse therm.config "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Azide Fuse delay\nClick to edit delay time in seconds.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 5","color":"dark_gray"}]}}," Aziroazide Azide Fuse ",{"text":"(Current: ","color":"gray"},{"score":{"name":"#azide_fuse","objective":"therm.config"},"color":"gray"},{"text":")","color":"gray"}]
+tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #thermite_fuse therm.config "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Thermite Fuse delay\nClick to edit delay time in seconds.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 3","color":"dark_gray"}]}}," Thermite Fuse ",{"text":"(Current: ","color":"gray"},{"score":{"name":"#thermite_fuse","objective":"therm.config"},"color":"gray"},{"text":")","color":"gray"}]
+# cold
+tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #cryonova_fuse therm.config "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Cryo Nuke Fuse delay\nClick to edit delay time in seconds.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 5","color":"dark_gray"}]}}," Cryo-Nova Fuse ",{"text":"(Current: ","color":"gray"},{"score":{"name":"#cryonova_fuse","objective":"therm.config"},"color":"gray"},{"text":")","color":"gray"}]
+tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #cryobomb_fuse therm.config "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Cryo-Bomb Fuse delay\nClick to edit delay time in seconds.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 3","color":"dark_gray"}]}}," Cryo-Bomb Fuse ",{"text":"(Current: ","color":"gray"},{"score":{"name":"#cryobomb_fuse","objective":"therm.config"},"color":"gray"},{"text":")","color":"gray"}]
+tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #cryocherry_fuse therm.config "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Cryo-Cherry Fuse delay\nClick to edit delay time in seconds.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 3","color":"dark_gray"}]}}," Cryo-Cherry Fuse ",{"text":"(Current: ","color":"gray"},{"score":{"name":"#cryocherry_fuse","objective":"therm.config"},"color":"gray"},{"text":")","color":"gray"}]
+tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #cryopop_fuse therm.config "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Cryo-Pop Fuse delay\nClick to edit delay time in seconds.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 0","color":"dark_gray"}]}}," Cryo-Pop Fuse ",{"text":"(Current: ","color":"gray"},{"score":{"name":"#cryopop_fuse","objective":"therm.config"},"color":"gray"},{"text":")","color":"gray"}]
+
+# Main On Off switch for all bombs here, one line
+tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #thermodynamic therm.config "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Click to toggle Thermodynamic Reactions On or Off.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 5","color":"dark_gray"}]}}," Thermodynamic ",{"text":"(Current: ","color":"gray"},{"score":{"name":"#thermodynamic","objective":"therm.config"},"color":"gray"},{"text":")","color":"gray"}]
+
+
+tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}

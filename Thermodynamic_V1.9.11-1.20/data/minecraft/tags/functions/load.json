@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"thermodynamic:load",
+		"thermodynamic:tick",
+		"thermodynamic:tick_1s"
+	]
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "Thermite                                                                                     ",
+        "description": ["",
+            {"text":"Place Ancient Debris on a Magma block to create a Thermite Reaction.","color":"green"},{"text":"\n"},
+            {"text":"Placing a Netherite Block next to magma will create Aziroazide Azide.","color":"dark_green"}
+            ],
+        "icon": {
+            "item": "minecraft:ancient_debris"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:thermodynamic",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "cryonuke_crafted": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "thermodynamic:cryonuke_rcp"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thermodynamic:cryonuke_crafted"
+    }
+}
