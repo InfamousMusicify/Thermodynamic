@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "title": {
+            "text": "Thermodynamic Info                                             ",
+            "color": "white",
+            "bold": false,
+            "italic": false
+        },
+		"description": ["",
+        {"text":"Sneak to skip fuse, be careful!","color":"green"}
+    ],
+		"show_toast": false,
+		"announce_to_chat": false
+    },
+    "parent": "inhauspacks:thermite",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

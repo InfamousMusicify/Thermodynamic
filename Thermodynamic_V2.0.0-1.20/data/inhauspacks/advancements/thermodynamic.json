@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "Thermodynamic                                                                     ",
+        "description": ["",
+            {"text":"Thermodynamic Reactions","color":"green"},{"text":"\n"},
+            {"text":"Create a super cold blast!\nCool lava and freeze water!","color":"gold"},{"text":"\n"},
+            {"text":"Melt Pesky Obsidian!\nEvaporate water and ice!","color":"gold"}
+            ],
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:death",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

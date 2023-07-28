@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Cryo-Pop                                                                         ",
+        "description": ["",
+            {"text":"Create a small cold blast!","color":"green"},{"text":"\n"},
+            {"text":"Place Ice on Magma \nto create a Cryo-Pop.","color":"gold"},{"text":"\n"},
+            {"text":"Turn less lava to magma, \nfreezes less water.","color":"gold"},{"text":"\n"},
+            {"text":"Standing to close will hurt... a little.","color":"red"}
+            ],
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:cryocherry",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

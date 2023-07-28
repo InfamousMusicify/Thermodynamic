@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Cryo-Bomb                                                                          ",
+        "description": ["",
+            {"text":"Create a super cold blast!","color":"green"},{"text":"\n"},
+            {"text":"Place Blue Ice on Magma \nto create a Cryo-Bomb.","color":"gold"},{"text":"\n"},
+            {"text":"Turn lava to basalt and water to ice.","color":"gold"},{"text":"\n"},
+            {"text":"Standing to close will hurt!","color":"red"}
+            ],
+        "icon": {
+            "item": "minecraft:blue_ice"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:cryonova",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
