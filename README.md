@@ -29,6 +29,7 @@ __Crafting Thermodynamic Armor:__
 __Info:__    
 Sneak to set off bombs instantly!   
 Set fuse to -1 to turn fuses off.    
+Turn fuse and sneak off and then sneak, to place without reactions. (soft off, at will)   
 Set thermodynamic toggle to -1 to turn it back on if you turned it off previously.   
 *If you are wearing a Netherite Chestplate/Plated Elytra/Thermodynamic Pants 
 or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
