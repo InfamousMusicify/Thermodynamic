@@ -18,6 +18,7 @@ scoreboard objectives remove therm_logout
 scoreboard objectives remove therm.config
 scoreboard objectives remove therm_track
 scoreboard objectives remove therm_time
+scoreboard objectives remove therm_sneaking
 # fuses
 scoreboard objectives remove azide
 scoreboard objectives remove thermite

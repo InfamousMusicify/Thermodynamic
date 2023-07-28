@@ -12,7 +12,7 @@
 		"description": ["",
         {"text":"/trigger thermodynamic","color":"green"},{"text":"\n"},
         {"text":"to change fuse times \nand toggle reactions On/Off.","color":"gold"},{"text":"\n"},
-        {"text":"Fuse: -1 = Off \nOther settings: -1 = On","color":"red"},{"text":"\n"},
+        {"text":"(Use -1 for 0 in player settings.)","color":"yellow"},{"text":"\n"},
         {"text":"/function thermodynamic:config","color":"dark_red"}
     ],
 		"show_toast": false,

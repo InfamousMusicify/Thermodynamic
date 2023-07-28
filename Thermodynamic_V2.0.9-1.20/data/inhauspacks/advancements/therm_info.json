@@ -4,13 +4,14 @@
             "item": "minecraft:magma_block"
         },
         "title": {
-            "text": "Thermodynamic Info                                             ",
+            "text": "Thermodynamic Info                                                  ",
             "color": "white",
             "bold": false,
             "italic": false
         },
 		"description": ["",
-        {"text":"Sneak to skip fuse, be careful!","color":"green"}
+        {"text":"Sneak to skip the fuse, be careful!","color":"green"},{"text":"\n"},
+        {"text":"Set fuse to 0 and sneak\nto place without reaction.","color":"gold"}
     ],
 		"show_toast": false,
 		"announce_to_chat": false
