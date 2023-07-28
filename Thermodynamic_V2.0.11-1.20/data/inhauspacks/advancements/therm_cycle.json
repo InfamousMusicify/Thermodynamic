@@ -11,7 +11,7 @@
         },
 		"description": ["",
         {"text":"/trigger thermodynamic","color":"green"},{"text":"\n"},
-        {"text":"to change fuse times \nand toggle reactions On/Off.","color":"gold"},{"text":"\n"},
+        {"text":"to change fuse times \nand toggle reactions and sneak On/Off.","color":"gold"},{"text":"\n"},
         {"text":"(Use -1 for 0 in player settings.)","color":"yellow"},{"text":"\n"},
         {"text":"/function thermodynamic:config","color":"dark_red"}
     ],

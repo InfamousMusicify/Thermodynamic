@@ -39,4 +39,7 @@ execute as @e[type=minecraft:armor_stand,tag=azide_entity,tag=fuse,scores={azide
 # fire the bij
 execute at @e[type=minecraft:armor_stand,tag=azide_entity,tag=fuse,scores={azide=0}] run function thermodynamic:azide/aziroazide_azide
 
+#execute as @e[type=minecraft:armor_stand,tag=azide_entity,tag=fuse,scores={azide=0}] at @s run function thermodynamic:azide/aziroazide_azide
+#execute as @p at @e[type=minecraft:armor_stand,tag=azide_entity,tag=fuse,scores={azide=0}] run function thermodynamic:azide/aziroazide_azide
+
 #execute at @p run summon arrow
