@@ -9,33 +9,34 @@ __Create a super cold blast!  Melt Pesky Obsidian!__
 
 ### Hit the advancements key to see in game info and help!
 
-__How to Use Cryo-Bomb:__  
-  
-    Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, 
-    the blast will turn nearby water/lava to its solid form.  
-    
-    Place Packed Ice next to Magma to create a mini Cryo-Bomb! 
-    (turns lava to magma, freezes less water)  
-    Standing to close may hurt!  
-
-__How to Use Thermite:__  
-
-    Place a Ancient Debris on a Magma Block and it will create Thermite, 
-    the reaction will turn nearby Obsidian into Magma.  
-    Water and Ice nearby will be evaporated.  
-    Standing to close may hurt!  
-
-__Thermal-Cycle:__  
-
-    Craft Packed Ice and Ancient Debris together.    
-    Eat the Thermal-Cycle item to toggle Bombs On/Off.  
+### Cold:
+    Cryo-Nova:            Netherite Block on Blue Ice (Huge)
+    Cryo-Bomb:            Blue Ice block on a Magma Block (Large)
+    Cryo-Cherry-Bomb:     Packed Ice on a Magma Block (Medium)
+    Cryo-Pop:             Ice on a Magma Block (small)
+    The blast will turn nearby water/lava to its solid form.
+### Hot:
+    Aziroazide Azide:     Netherite Block on a Magma Block (Huge)
+    Thermite:             Ancient Debris on a Magma Block (Large)
+    The reaction will turn nearby Obsidian into Magma. Water and Ice nearby will be evaporated.
 
 __Crafting Thermodynamic Armor:__   
 
     Craft Blue Ice and a Netherite Block together, 
-    drop any Leggings on the ground and eat the item you crafted to create Thermodynamic Armor.  
+    Drop any Leggings on the ground and right click them with the item you crafted to create Thermodynamic Pants.  
 
-#### *If you are wearing a Netherite Chestplate/Plated Elytra/Thermodynamic Armor or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
+
+__Info:__    
+Sneak to set off bombs instantly!   
+Set fuse to -1 to turn fuses off.    
+Set thermodynamic toggle to -1 to turn it back on if you turned it off previously.   
+*If you are wearing a Netherite Chestplate/Plated Elytra/Thermodynamic Pants 
+or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
+
+__Commands:__  
+``/trigger thermodynamic`` - Toggle and fuse times   
+``/function thermodynamic:config`` - Admin Settings   
+
  
 [How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)  
 
