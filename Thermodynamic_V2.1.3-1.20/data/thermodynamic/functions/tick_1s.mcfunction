@@ -6,7 +6,7 @@ schedule function thermodynamic:tick_1s 1s
 #
 execute as @a[scores={therm_logout=1..}] run function thermodynamic:logout
 
-#scoreboard players enable @a thermodynamic
+scoreboard players enable @a thermodynamic
 execute as @a unless score @s thermodynamic matches -1 run function thermodynamic:trigger
 # fuse tag remover
 execute as @a[tag=fuse_tweak] run function thermodynamic:fuse_kill_timer
