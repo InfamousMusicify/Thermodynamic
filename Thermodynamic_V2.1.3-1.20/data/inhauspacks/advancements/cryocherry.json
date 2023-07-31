@@ -5,7 +5,7 @@
             {"text":"Create a cold blast!","color":"green"},{"text":"\n"},
             {"text":"Place Packed Ice on Magma \nto create a Cryo-Cherry-Bomb.","color":"gold"},{"text":"\n"},
             {"text":"Turn lava to magma, freezes less water.","color":"gold"},{"text":"\n"},
-            {"text":"Standing to close will hurt!","color":"red"}
+            {"text":"Standing too close will hurt!","color":"red"}
             ],
         "icon": {
             "item": "minecraft:packed_ice"

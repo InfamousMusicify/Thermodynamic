@@ -5,7 +5,7 @@
             {"text":"Create a massive cold blast!","color":"green"},{"text":"\n"},
             {"text":"Place a Netherite Block on Blue Ice \nto create a Cryo-Nova.","color":"gold"},{"text":"\n"},
             {"text":"Turn a lot of lava to magma, \nfreeze small lakes...","color":"gold"},{"text":"\n"},
-            {"text":"Standing to close will hurt! a lot...","color":"red"}
+            {"text":"Standing too close will hurt! a lot...","color":"red"}
             ],
         "icon": {
             "item": "minecraft:netherite_block"

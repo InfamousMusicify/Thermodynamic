@@ -5,7 +5,7 @@
             {"text":"Create a small cold blast!","color":"green"},{"text":"\n"},
             {"text":"Place Ice on Magma \nto create a Cryo-Pop.","color":"gold"},{"text":"\n"},
             {"text":"Turn less lava to magma, \nfreezes less water.","color":"gold"},{"text":"\n"},
-            {"text":"Standing to close will hurt... a little.","color":"red"}
+            {"text":"Standing too close will hurt... a little.","color":"red"}
             ],
         "icon": {
             "item": "minecraft:ice"

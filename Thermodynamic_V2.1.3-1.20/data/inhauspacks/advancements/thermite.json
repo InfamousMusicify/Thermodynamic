@@ -5,7 +5,7 @@
             {"text":"Melt Pesky Obsidian!","color":"green"},{"text":"\n"},
             {"text":"Place Ancient Debris on Magma \nto create Thermite.","color":"gold"},{"text":"\n"},
             {"text":"Turn obsidian to magma and \nevaporate water/ice.","color":"gold"},{"text":"\n"},
-            {"text":"Standing to close will hurt!","color":"red"}
+            {"text":"Standing too close will hurt!","color":"red"}
             ],
         "icon": {
             "item": "minecraft:ancient_debris"
