@@ -19,7 +19,7 @@ __Create a super cold blast!  Melt Pesky Obsidian!__
     Aziroazide Azide:     Netherite Block on a Magma Block (Huge)
     Thermite:             Ancient Debris on a Magma Block (Large)
     The reaction will turn nearby Obsidian into Magma. Water and Ice nearby will be evaporated.
-
+### Standing too close will hurt.
 __Crafting Thermodynamic Armor:__   
 
     Throw a Blue Ice, a Netherite Block and any Leggings on 
