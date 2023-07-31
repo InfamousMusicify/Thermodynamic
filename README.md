@@ -22,15 +22,15 @@ __Create a super cold blast!  Melt Pesky Obsidian!__
 
 __Crafting Thermodynamic Armor:__   
 
-    Craft Blue Ice and a Netherite Block together, 
-    Drop any Leggings on the ground and right click them with the item you crafted to create Thermodynamic Pants.  
+    Throw a Blue Ice, a Netherite Block and any Leggings on 
+    on an enchanting table to create Thermodynamic Pants.  
+    (to disenchant throw on top of a grindstone)
 
 
 __Info:__    
-Sneak to set off bombs instantly!   
-Set fuse to -1 to turn fuses off.    
-Turn fuse and sneak off and then sneak, to place without reactions. (soft off, at will)   
-Set thermodynamic toggle to -1 to turn it back on if you turned it off previously.   
+Sneak to set off bombs instantly!     
+Turn fuse and sneak off and then sneak, to place without reactions. (soft off / off at will)   
+  
 *If you are wearing a Netherite Chestplate/Plated Elytra/Thermodynamic Pants 
 or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
 
