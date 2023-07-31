@@ -4,14 +4,17 @@
             "item": "minecraft:magma_block"
         },
         "title": {
-            "text": "Thermodynamic Info                                                  ",
+            "text": "Thermodynamic Info                                                                           ",
             "color": "white",
             "bold": false,
             "italic": false
         },
 		"description": ["",
         {"text":"Sneak to skip the fuse, be careful!","color":"green"},{"text":"\n"},
-        {"text":"Turn fuse and sneak off,\nthen sneak to place without reactions.","color":"gold"}
+        {"text":"Turn fuse and sneak off,\nthen sneak to place without reactions.","color":"gold"},{"text":"\n"},
+        {"text":"/trigger thermodynamic","color":"green"},{"text":"\n"},
+        {"text":"to change fuse times and toggle \nreactions and sneak On/Off.","color":"gold"},{"text":"\n"},
+        {"text":"/function thermodynamic:config","color":"dark_red"}
     ],
 		"show_toast": false,
 		"announce_to_chat": false

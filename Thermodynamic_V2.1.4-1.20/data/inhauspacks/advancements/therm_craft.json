@@ -10,15 +10,15 @@
             "italic": false
         },
 		"description": 
-		["",{"text":"Craft a Blue Ice and Netherite Block together, and right click any Leggings with the Thermodynamic item to create ","color":"dark_green"},
+		["",{"text":"Throw a Blue Ice a Netherite Block and any Leggings on top of an enchanting table to create ","color":"dark_green"},
 		{"text":"Thermodynamic","color":"red"},
 		{"text":" Pants.","color":"dark_green"},
 		{"text":"\n"},
-		{"text":"If you are wearing Thermodynamic Pants, Netherite Chestplate, Plated Elytra or a Chains+ Chestplate you will take NO damage from the blast!","color":"gold"}],
+		{"text":"If you are wearing Thermodynamic Pants, Netherite Chestplate, Plated Elytra or a Chains+ Chestplate you will not take damage from reactions!","color":"gold"}],
 		"show_toast": false,
 		"announce_to_chat": false
     },
-    "parent": "inhauspacks:therm_cycle",
+    "parent": "inhauspacks:therm_info",
     "criteria": {
         "tick": {
             "trigger": "minecraft:tick"
