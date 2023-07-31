@@ -14,10 +14,12 @@ __Create a super cold blast!  Melt Pesky Obsidian!__
     Cryo-Bomb:            Blue Ice block on a Magma Block (Large)
     Cryo-Cherry:          Packed Ice on a Magma Block (Medium)
     Cryo-Pop:             Ice on a Magma Block (small)
+    
     The blast will turn nearby water/lava to its solid form.
 ### Hot:
     Aziroazide Azide:     Netherite Block on a Magma Block (Huge)
     Thermite:             Ancient Debris on a Magma Block (Large)
+    
     The reaction will turn nearby Obsidian into Magma. Water and Ice nearby will be evaporated.
 ### Standing too close will hurt.
 __Crafting Thermodynamic Armor:__   
@@ -37,7 +39,15 @@ __Commands:__
 ``/trigger thermodynamic`` - Toggles and fuse times   
 ``/function thermodynamic:config`` - Admin Settings   
 
- 
+__Warnings and more info:__   
+
+    * Cryo-Nova and Azide will blow holes straight thru bedrock/command blocks/ and everything near the center of the blast.   
+   
+    * When using /trigger thermodynamic click the desired setting, a msg will pop up, click the new msg to edit the setting.   
+      You have 60 seconds to edit a setting before it switches back to choosing a setting.
+    * Each Armorstand will be killed after 5 minutes for performance and stopping certain edge case bugs.   
+    * Bombs placed at the bottom or top of the world at world limit will not trigger.  cant detect magma, cmds fail.
+  
 [How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)  
 
 __OG Packs:   
