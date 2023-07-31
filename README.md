@@ -26,16 +26,15 @@ __Crafting Thermodynamic Armor:__
     on an enchanting table to create Thermodynamic Pants.  
     (to disenchant throw on top of a grindstone)
 
+*If you are wearing a Netherite Chestplate/Plated Elytra/Thermodynamic Pants 
+or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
 
 __Info:__    
 Sneak to set off bombs instantly!     
 Turn fuse and sneak off and then sneak, to place without reactions. (soft off / off at will)   
   
-*If you are wearing a Netherite Chestplate/Plated Elytra/Thermodynamic Pants 
-or a [Chains+](https://github.com/InfamousMusicify/Chains-Plus) Chest piece you will not be damaged by the blast!*  
-
 __Commands:__  
-``/trigger thermodynamic`` - Toggle and fuse times   
+``/trigger thermodynamic`` - Toggles and fuse times   
 ``/function thermodynamic:config`` - Admin Settings   
 
  
