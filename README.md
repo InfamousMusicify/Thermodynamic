@@ -12,7 +12,7 @@ __Create a super cold blast!  Melt Pesky Obsidian!__
 ### Cold:
     Cryo-Nova:            Netherite Block on Blue Ice (Huge)
     Cryo-Bomb:            Blue Ice block on a Magma Block (Large)
-    Cryo-Cherry:     Packed Ice on a Magma Block (Medium)
+    Cryo-Cherry:          Packed Ice on a Magma Block (Medium)
     Cryo-Pop:             Ice on a Magma Block (small)
     The blast will turn nearby water/lava to its solid form.
 ### Hot:
