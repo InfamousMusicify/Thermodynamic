@@ -21,6 +21,9 @@ fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:netherite_block
 #summon minecraft:tnt ~ ~ ~ {fuse:0s}
 #fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:air
 
+fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:magma_block replace minecraft:bedrock
+fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:magma_block replace minecraft:bedrock
+fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:magma_block replace minecraft:bedrock
 
 # just for fun overpowered quick mining thing
 fill ~-20 ~-9 ~-20 ~20 ~9 ~20 minecraft:air replace #minecraft:cinderlog
