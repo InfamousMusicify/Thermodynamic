@@ -24,8 +24,8 @@ __Create a super cold blast!  Melt Pesky Obsidian!__
 ### Standing too close will hurt.
 __Crafting Thermodynamic Armor:__   
 
-    Throw a Blue Ice, a Netherite Block and any Leggings on 
-    on an enchanting table to create Thermodynamic Pants.  
+    Throw a Blue Ice, a Netherite Block and any Leggings on an
+    enchanting table to create Thermodynamic Pants.  
     (to disenchant throw on top of a grindstone)
 
 *If you are wearing a Netherite Chestplate/Plated Elytra/Thermodynamic Pants 
