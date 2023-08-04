@@ -18,8 +18,21 @@ fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:magma_block replace minecraft:lava
 #fill ~-7 ~-4 ~-7 ~5 ~4 ~7 minecraft:magma_block replace minecraft:lava
 
 # Condense
+#fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace #minecraft:waterlog
+#fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~ ~2 ~ ~ ~-2 ~ minecraft:air replace #minecraft:waterlog
+#fill ~ ~2 ~ ~ ~-2 ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~2 ~ ~2 ~-2 ~ ~-2 minecraft:air replace #minecraft:waterlog
+#fill ~2 ~ ~2 ~-2 ~ ~-2 minecraft:air replace #minecraft:drylog[waterlogged=true]
+
+#fill ~ ~-2 ~ ~ ~2 ~ minecraft:air replace #minecraft:waterlog
 fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace #minecraft:waterlog
+fill ~-2 ~ ~-2 ~2 ~ ~2 minecraft:air replace #minecraft:waterlog
+#
+#fill ~ ~-2 ~ ~ ~2 ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
 fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace #minecraft:drylog[waterlogged=true]
+fill ~-2 ~ ~-2 ~2 ~ ~2 minecraft:air replace #minecraft:drylog[waterlogged=true]
+
 #fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace #minecraft:waterlog
 #fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace #minecraft:waterlog
 #fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace #minecraft:waterlog
@@ -57,3 +70,16 @@ kill @e[type=minecraft:armor_stand,tag=cryocherry_entity,tag=!fuse]
 #
 
 
+
+
+# wide squat
+#fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:ice replace #minecraft:waterlog
+#fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:ice replace #minecraft:waterlog
+#fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:ice replace #minecraft:waterlog
+#fill ~-6 ~-2 ~-6 ~6 ~2 ~6 minecraft:ice replace #minecraft:waterlog
+
+
+# sphere balaced
+#fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:ice replace #minecraft:drylog[waterlogged=true]
+#fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:ice replace #minecraft:drylog[waterlogged=true]
+#fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:ice replace #minecraft:drylog[waterlogged=true]

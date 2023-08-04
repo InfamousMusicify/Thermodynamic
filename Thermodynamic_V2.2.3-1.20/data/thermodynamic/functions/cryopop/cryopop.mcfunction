@@ -24,13 +24,17 @@ fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:magma_block replace minecraft:lava
 fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:magma_block replace minecraft:lava
 
 # Condense
-fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace #minecraft:waterlog
-fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace #minecraft:waterlog
-fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace #minecraft:waterlog
+fill ~-1 ~0 ~-1 ~1 ~0 ~1 minecraft:air replace #minecraft:waterlog
+fill ~ ~1 ~ ~ ~-1 ~ minecraft:air replace #minecraft:waterlog
+#fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace #minecraft:waterlog
+#fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace #minecraft:waterlog
+#fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace #minecraft:waterlog
 #
-fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
-fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
-fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace #minecraft:drylog[waterlogged=true]
+fill ~-1 ~0 ~-1 ~1 ~0 ~1 minecraft:air replace #minecraft:drylog[waterlogged=true]
+fill ~ ~1 ~ ~ ~-1 ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace #minecraft:drylog[waterlogged=true]
 
 # conduit
 fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
