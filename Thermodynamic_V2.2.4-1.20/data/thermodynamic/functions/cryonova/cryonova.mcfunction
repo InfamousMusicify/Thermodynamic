@@ -37,13 +37,31 @@ fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:netherite_block
 
 # Condense
 #fill ~20 ~-9 ~20 ~-20 ~9 ~-20 minecraft:air replace minecraft:water
-fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace #minecraft:waterlog
-fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace #minecraft:waterlog
-fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:air replace #minecraft:waterlog
+# old
+#fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace #minecraft:waterlog
+#fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace #minecraft:waterlog
+#fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:air replace #minecraft:waterlog
 #
-fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace #minecraft:drylog[waterlogged=true]
-fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace #minecraft:drylog[waterlogged=true]
-fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:air replace #minecraft:drylog[waterlogged=true]
+
+# cherry size
+#fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:air replace #minecraft:waterlog
+#fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:air replace #minecraft:waterlog
+#fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:air replace #minecraft:waterlog
+#
+#fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:air replace #minecraft:drylog[waterlogged=true]
+#fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:air replace #minecraft:drylog[waterlogged=true]
+# shrunken cheery
+fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:air replace #minecraft:waterlog
+fill ~-4 ~-2 ~-4 ~4 ~2 ~4 minecraft:air replace #minecraft:waterlog
+fill ~-5 ~-1 ~-5 ~5 ~1 ~5 minecraft:air replace #minecraft:waterlog
+#
+fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:air replace #minecraft:drylog[waterlogged=true]
+fill ~-4 ~-2 ~-4 ~4 ~2 ~4 minecraft:air replace #minecraft:drylog[waterlogged=true]
+fill ~-5 ~-1 ~-5 ~5 ~1 ~5 minecraft:air replace #minecraft:drylog[waterlogged=true]
 
 # Lava Cool
 fill ~-20 ~-9 ~-20 ~20 ~9 ~20 minecraft:basalt replace minecraft:lava
