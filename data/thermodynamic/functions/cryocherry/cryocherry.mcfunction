@@ -13,13 +13,13 @@ fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:air replace minecraft:lava
 fill ~ ~1 ~ ~ ~-1 ~ minecraft:air replace minecraft:lava
 
 # Lava Cool
-fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:magma_block replace minecraft:lava
-fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:magma_block replace minecraft:lava
-fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:magma_block replace minecraft:lava
+fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:magma_block replace minecraft:lava
+fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:magma_block replace minecraft:lava
+fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:magma_block replace minecraft:lava
 # magma cool
-fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:basalt replace minecraft:magma_block
-fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:basalt replace minecraft:magma_block
-fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:basalt replace minecraft:magma_block
+fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:basalt replace minecraft:magma_block
+fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:basalt replace minecraft:magma_block
+fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:basalt replace minecraft:magma_block
 
 
 # conduit
@@ -32,13 +32,13 @@ fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace #minecraft:drylog[waterlogged=tr
 fill ~-2 ~ ~-2 ~2 ~ ~2 minecraft:air replace #minecraft:drylog[waterlogged=true]
 # water to ice
 # water itself
-fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:ice replace #minecraft:waterlog
-fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:ice replace #minecraft:waterlog
-fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:ice replace #minecraft:waterlog
+fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:ice replace #minecraft:waterlog
+fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:ice replace #minecraft:waterlog
+fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:ice replace #minecraft:waterlog
 # Waterlogged
-fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:ice replace #minecraft:drylog[waterlogged=true]
-fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:ice replace #minecraft:drylog[waterlogged=true]
-fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:ice replace #minecraft:drylog[waterlogged=true]
+fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:ice replace #minecraft:drylog[waterlogged=true]
+fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:ice replace #minecraft:drylog[waterlogged=true]
+fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:ice replace #minecraft:drylog[waterlogged=true]
 
 
 # effect  (Chains+, Netherite Chestplate, Thermodynamic armor, and Armored Elytras will all make you immune to the blasts.)
@@ -62,16 +62,16 @@ kill @e[type=minecraft:armor_stand,tag=cryocherry_entity,tag=!fuse]
 
 # examples
 # wide squat
-#fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:ice replace #minecraft:waterlog
-#fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:ice replace #minecraft:waterlog
-#fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:ice replace #minecraft:waterlog
+#fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:ice replace #minecraft:waterlog
+#fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:ice replace #minecraft:waterlog
+#fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:ice replace #minecraft:waterlog
 #fill ~-6 ~-2 ~-6 ~6 ~2 ~6 minecraft:ice replace #minecraft:waterlog
 
 
 # sphere balaced
-#fill ~-3 ~-5 ~-3 ~3 ~5 ~3 minecraft:ice replace #minecraft:drylog[waterlogged=true]
-#fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:ice replace #minecraft:drylog[waterlogged=true]
-#fill ~-5 ~-3 ~-5 ~5 ~3 ~5 minecraft:ice replace #minecraft:drylog[waterlogged=true]
+#fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:ice replace #minecraft:drylog[waterlogged=true]
+#fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:ice replace #minecraft:drylog[waterlogged=true]
+#fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:ice replace #minecraft:drylog[waterlogged=true]
 
 
 
