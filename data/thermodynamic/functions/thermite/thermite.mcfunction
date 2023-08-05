@@ -5,9 +5,9 @@
 # kill main source
 fill ~ ~ ~ ~ ~ ~ minecraft:basalt replace minecraft:ancient_debris
 # Magma Block Killer
-fill ~ ~1 ~ ~ ~-1 ~ minecraft:basalt replace minecraft:magma_block
-fill ~1 ~ ~ ~-1 ~ ~ minecraft:basalt replace minecraft:magma_block
-fill ~ ~ ~1 ~ ~ ~-1 minecraft:basalt replace minecraft:magma_block
+fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:basalt replace minecraft:magma_block
+fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:basalt replace minecraft:magma_block
+fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:basalt replace minecraft:magma_block
 
 # blow away dust
 # small sphere blow things away
