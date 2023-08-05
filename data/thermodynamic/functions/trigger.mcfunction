@@ -10,6 +10,9 @@ execute as @s[scores={thermodynamic=0},tag=!fuse_tweak] run function thermodynam
 ##### execute as @s[scores={thermodynamic=-1},tag=fuse_tweak] run scoreboard players set @s thermodynamic 0
 # kill fuse when entering fuse times
 execute as @s[scores={thermodynamic=0..},tag=fuse_tweak] run scoreboard players set @s therm_killfuse 0
+# remove tag for reselect
+execute as @s[scores={thermodynamic=500..},tag=fuse_tweak] run function thermodynamic:tag_remover
+# reset to max when overset
 execute as @s[scores={thermodynamic=61..},tag=fuse_tweak] run scoreboard players set @s thermodynamic 60
 # toggle
 execute as @s[scores={thermodynamic=-0..},tag=therm_power] run function thermodynamic:trigger/power_set
@@ -24,15 +27,15 @@ execute as @s[scores={thermodynamic=-0..},tag=fuse_cryopop] run function thermod
 
 # pick
 # toggle
-execute as @s[scores={thermodynamic=50},tag=!fuse_tweak] run function thermodynamic:trigger/power
-execute as @s[scores={thermodynamic=60},tag=!fuse_tweak] run function thermodynamic:trigger/sneak
+execute as @s[scores={thermodynamic=800},tag=!fuse_tweak] run function thermodynamic:trigger/power
+execute as @s[scores={thermodynamic=900},tag=!fuse_tweak] run function thermodynamic:trigger/sneak
 # fuse
-execute as @s[scores={thermodynamic=100},tag=!fuse_tweak] run function thermodynamic:trigger/azide
-execute as @s[scores={thermodynamic=200},tag=!fuse_tweak] run function thermodynamic:trigger/thermite
-execute as @s[scores={thermodynamic=300},tag=!fuse_tweak] run function thermodynamic:trigger/cryonova
-execute as @s[scores={thermodynamic=400},tag=!fuse_tweak] run function thermodynamic:trigger/cryobomb
-execute as @s[scores={thermodynamic=500},tag=!fuse_tweak] run function thermodynamic:trigger/cryocherry
-execute as @s[scores={thermodynamic=600},tag=!fuse_tweak] run function thermodynamic:trigger/cryopop
+execute as @s[scores={thermodynamic=1000},tag=!fuse_tweak] run function thermodynamic:trigger/azide
+execute as @s[scores={thermodynamic=2000},tag=!fuse_tweak] run function thermodynamic:trigger/thermite
+execute as @s[scores={thermodynamic=3000},tag=!fuse_tweak] run function thermodynamic:trigger/cryonova
+execute as @s[scores={thermodynamic=4000},tag=!fuse_tweak] run function thermodynamic:trigger/cryobomb
+execute as @s[scores={thermodynamic=5000},tag=!fuse_tweak] run function thermodynamic:trigger/cryocherry
+execute as @s[scores={thermodynamic=6000},tag=!fuse_tweak] run function thermodynamic:trigger/cryopop
 
 
 scoreboard players enable @s thermodynamic
