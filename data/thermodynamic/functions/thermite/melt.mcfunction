@@ -1,5 +1,11 @@
 
 
+# melt stone and stuff
+fill ~-4 ~-7 ~-4 ~4 ~7 ~4 minecraft:magma_block replace #minecraft:meltlog
+fill ~-5 ~-6 ~-5 ~5 ~6 ~5 minecraft:magma_block replace #minecraft:meltlog
+fill ~-6 ~-5 ~-6 ~6 ~5 ~6 minecraft:magma_block replace #minecraft:meltlog
+fill ~-7 ~-4 ~-7 ~7 ~4 ~7 minecraft:magma_block replace #minecraft:meltlog
+
 #fill ~-24 ~-5 ~-24 ~24 ~5 ~24 minecraft:glass_pane replace minecraft:sand
 fill ~-4 ~-7 ~-4 ~4 ~7 ~4 minecraft:glass_pane replace minecraft:sand
 fill ~-5 ~-6 ~-5 ~5 ~6 ~5 minecraft:glass_pane replace minecraft:sand
