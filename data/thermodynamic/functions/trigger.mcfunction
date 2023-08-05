@@ -11,7 +11,7 @@ execute as @s[scores={thermodynamic=0},tag=!fuse_tweak] run function thermodynam
 # kill fuse when entering fuse times
 execute as @s[scores={thermodynamic=0..},tag=fuse_tweak] run scoreboard players set @s therm_killfuse 0
 # remove tag for reselect
-execute as @s[scores={thermodynamic=500..},tag=fuse_tweak] run function thermodynamic:tag_remover
+execute as @s[scores={thermodynamic=500..},tag=fuse_tweak] run function thermodynamic:fuse_tag_remove
 # reset to max when overset
 execute as @s[scores={thermodynamic=61..},tag=fuse_tweak] run scoreboard players set @s thermodynamic 60
 # toggle
