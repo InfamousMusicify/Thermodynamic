@@ -17,8 +17,8 @@ tag @s add azide_fused
 #execute as @e[type=minecraft:armor_stand,tag=azide_entity,tag=fuse,scores={azide=1..}] run scoreboard players remove @s azide 1
 # warning particles and sounds
 
-execute unless score #azide_vis therm.config matches 1.. at @s run particle minecraft:lava ~ ~.55 ~ 1 1 1 1 250 force
-execute unless score #azide_vis therm.config matches 1.. at @s run particle minecraft:flame ~ ~.55 ~ 0 0 0 0.2 300 force
+execute unless score #azide_vis therm.config matches 1.. at @s run particle minecraft:lava ~ ~ ~ 1 1 1 1 250 force
+execute unless score #azide_vis therm.config matches 1.. at @s run particle minecraft:flame ~ ~ ~ 0 0 0 0.2 300 force
 execute unless score #azide_sfx therm.config matches 1.. at @s run playsound minecraft:block.redstone_torch.burnout master @a[distance=..50]
 execute unless score #azide_sfx therm.config matches 1.. at @s run playsound minecraft:entity.creeper.primed master @a[distance=..50]
 # fire the bij

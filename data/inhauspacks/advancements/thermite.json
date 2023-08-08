@@ -2,7 +2,7 @@
     "display": {
         "title": "Thermite                                                                                                  ",
         "description": ["",
-            {"text":"Melt Pesky Obsidian!","color":"green"},{"text":"\n"},
+            {"text":"Create a super hot blast!\nMelt Pesky Obsidian!","color":"green"},{"text":"\n"},
             {"text":"Place Ancient Debris on Magma \nto create Thermite.","color":"gold"},{"text":"\n"},
             {"text":"Turn obsidian to magma and \nevaporate water/ice.","color":"gold"},{"text":"\n"},
             {"text":"Standing too close will hurt!","color":"red"}

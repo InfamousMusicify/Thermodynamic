@@ -10,11 +10,11 @@ fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:basalt replace minecraft:magma_block
 fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:basalt replace minecraft:magma_block
 
 # blow away dust
-# small sphere blow things away
+# non game breaking destroy center blast
 execute if score #quick_mine therm.config matches 1.. run fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace #minecraft:cinderlog
 execute if score #quick_mine therm.config matches 1.. run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace #minecraft:cinderlog
 execute if score #quick_mine therm.config matches 1.. run fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:air replace #minecraft:cinderlog
-# thermite dust remover
+# blast away weak blocks
 execute if score #quick_mine therm.config matches 1.. run fill ~-4 ~-7 ~-4 ~4 ~7 ~4 minecraft:air replace #minecraft:dust
 execute if score #quick_mine therm.config matches 1.. run fill ~-5 ~-6 ~-5 ~5 ~6 ~5 minecraft:air replace #minecraft:dust
 execute if score #quick_mine therm.config matches 1.. run fill ~-6 ~-5 ~-6 ~6 ~5 ~6 minecraft:air replace #minecraft:dust
@@ -55,7 +55,7 @@ fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:air replace minecraft:ice
 
 
 # effect  (Chains+, Netherite Chestplate, Thermodynamic armor, and Netherite Armored Elytras will all make you immune to the blasts.)
-execute unless score #thermite_efct therm.config matches 1.. as @e[sort=nearest,distance=..30] unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, tag: {armElyData: {chestplate: {id: "minecraft:netherite_chestplate"}}}}]}] unless entity @s[nbt={Inventory:[{Slot:101b, tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=thermite_entity,limit=1,sort=nearest] run function thermodynamic:thermite/effect
+execute unless score #thermite_efct therm.config matches 1.. as @e[sort=nearest,distance=..5] unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, tag: {armElyData: {chestplate: {id: "minecraft:netherite_chestplate"}}}}]}] unless entity @s[nbt={Inventory:[{Slot:101b, tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=thermite_entity,limit=1,sort=nearest] run function thermodynamic:thermite/effect
 
 # Viusals
 execute unless score #thermite_vis therm.config matches 1.. run function thermodynamic:thermite/particles

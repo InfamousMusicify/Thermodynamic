@@ -4,7 +4,7 @@ scoreboard players operation @s therm.config = @s thermodynamic
 
 
 #execute as @a[scores={thermodynamic=1..}]
-tag @s[scores={therm.config=1}] add thermodynamic_off
+tag @s[scores={therm.config=1..}] add thermodynamic_off
 tag @s[scores={therm.config=0}] remove thermodynamic_off
 
 tag @s remove therm_power

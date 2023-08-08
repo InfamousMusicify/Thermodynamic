@@ -1,0 +1,6 @@
+
+tag @s add fuse_pinite
+tag @s add fuse_tweak
+
+#tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/trigger thermodynamic set "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Pinite Fuse delay\nClick to edit delay time in seconds.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 3\nServer: ","color":"dark_gray"},{"score":{"name":"#pinite_fuse","objective":"therm.config"},"color":"dark_gray"}]}}," Pinite Fuse ",{"text":"(Current: ","color":"gray"},{"score":{"name":"@s","objective":"pinite"},"color":"gray"},{"text":")","color":"gray"}]
+tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/trigger thermodynamic set "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Pinite Fuse delay\nClick to edit delay time in seconds.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 3\nMax: 60\nServer: ","color":"dark_gray"},{"score":{"name":"#pinite_fuse","objective":"therm.config"},"color":"dark_gray"}]}},"",{"text":" Pinite Fuse ","color":"red"},{"text":"(","color":"gray"},{"score":{"name":"@s","objective":"pinite"},"color":"gray"},{"text":")","color":"gray"}]

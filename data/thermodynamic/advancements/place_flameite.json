@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "flameite": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:gold_block"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "thermodynamic:flameite/place"
+    }
+  }

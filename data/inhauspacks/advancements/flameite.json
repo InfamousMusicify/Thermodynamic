@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Flameite                                                                                 ",
+        "description": ["",
+            {"text":"Create a hot blast!","color":"green"},{"text":"\n"},
+            {"text":"Place a Gold Block on Magma \nto create Flameite.","color":"gold"},{"text":"\n"},
+            {"text":"Turn less obsidian to magma, \nevaporate less water/ice.","color":"gold"},{"text":"\n"},
+            {"text":"Standing too close will hurt!","color":"red"}
+            ],
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:thermite",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

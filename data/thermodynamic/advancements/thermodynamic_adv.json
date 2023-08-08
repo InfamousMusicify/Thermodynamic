@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "thermodynamic:crafted_thermodynamic"
+        "function": "thermodynamic:craft/crafted_therm"
     }
 }

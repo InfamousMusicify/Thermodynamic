@@ -19,7 +19,7 @@
 		"show_toast": false,
 		"announce_to_chat": false
     },
-    "parent": "inhauspacks:thermite",
+    "parent": "inhauspacks:cryopop",
     "criteria": {
         "tick": {
             "trigger": "minecraft:tick"

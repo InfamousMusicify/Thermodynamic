@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "rosite": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:coal_block"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "thermodynamic:rosite/place"
+    }
+  }

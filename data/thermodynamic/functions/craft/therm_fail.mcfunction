@@ -1,4 +1,4 @@
-# craft_fail
+# 
 
 # tellraw @s ["",{"text":"failed to craft","color":"dark_gray"}]
 # data merge entity @s {Motion:[0d,0d,0d]}

@@ -1,4 +1,4 @@
-# craft
+# 
 
 kill @e[limit=1,sort=nearest,type=minecraft:item,nbt={Item:{id:"minecraft:netherite_block",Count:1b}},distance=..1]
 
