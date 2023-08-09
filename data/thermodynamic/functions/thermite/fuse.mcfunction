@@ -10,10 +10,10 @@ scoreboard players add @e[type=minecraft:armor_stand,tag=thermite_entity,tag=fus
 # score remover
 scoreboard players remove @e[type=minecraft:armor_stand,tag=thermite_entity,tag=fuse,scores={thermite=1..}] thermite 1
 # warning particles and sounds
-execute unless score #thermite_vis therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=thermite_entity,tag=fuse,scores={thermite=1..,therm_track=20..}] run function thermodynamic:thermite/fuse_vis
-execute unless score #thermite_sfx therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=thermite_entity,tag=fuse,scores={thermite=1..,therm_track=20..}] run function thermodynamic:thermite/fuse_sfx
+execute unless score #thermite_vis therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=thermite_entity,tag=fuse,scores={thermite=1..,therm_track=30..}] run function thermodynamic:thermite/fuse_vis
+execute unless score #thermite_sfx therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=thermite_entity,tag=fuse,scores={thermite=1..,therm_track=30..}] run function thermodynamic:thermite/fuse_sfx
 
-scoreboard players set @e[type=minecraft:armor_stand,tag=thermite_entity,tag=fuse,scores={thermite=1..,therm_track=20..}] therm_track 0
+scoreboard players set @e[type=minecraft:armor_stand,tag=thermite_entity,tag=fuse,scores={thermite=1..,therm_track=30..}] therm_track 0
 # fire the bij
 execute at @e[type=minecraft:armor_stand,tag=thermite_entity,tag=fuse,scores={thermite=0}] run function thermodynamic:thermite/thermite
 

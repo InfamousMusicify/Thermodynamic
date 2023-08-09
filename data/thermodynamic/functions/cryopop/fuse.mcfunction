@@ -12,8 +12,7 @@ scoreboard players remove @e[type=minecraft:armor_stand,tag=cryopop_entity,tag=f
 # warning particles and sounds
 #execute unless score #cryopop_vis therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=cryopop_entity,tag=fuse,scores={cryopop=1..}] run particle minecraft:soul_fire_flame ~ ~.55 ~ 0 0 0 0.1 100 force
 execute unless score #cryopop_vis therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=cryopop_entity,tag=fuse,scores={cryopop=1..,therm_track=20..}] run particle minecraft:dolphin ~ ~.55 ~ 1 1 1 0.1 1000 force
-
-execute unless score #cryopop_sfx therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=cryopop_entity,tag=fuse,scores={cryopop=1..,therm_track=20..}] run playsound minecraft:block.stone.break master @a[distance=..15]
+execute unless score #cryopop_sfx therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=cryopop_entity,tag=fuse,scores={cryopop=1..,therm_track=20..}] run playsound minecraft:block.stone.break master @a[distance=..10]
 #execute unless score #cryopop_sfx therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=cryopop_entity,tag=fuse,scores={cryopop=1..}] run playsound minecraft:block.glass.break master @a[distance=..25]
 
 scoreboard players set @e[type=minecraft:armor_stand,tag=cryopop_entity,tag=fuse,scores={cryopop=1..,therm_track=20..}] therm_track 0

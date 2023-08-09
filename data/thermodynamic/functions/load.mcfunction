@@ -101,16 +101,16 @@ execute unless score #cryopop_sneak therm.config matches 0.. run scoreboard play
 
 # Fuses 
 # hot fuse # player choice
-execute unless score #azide_fuse therm.config matches 0.. run scoreboard players set #azide_fuse therm.config 5
+execute unless score #azide_fuse therm.config matches 0.. run scoreboard players set #azide_fuse therm.config 15
 execute unless score #thermite_fuse therm.config matches 0.. run scoreboard players set #thermite_fuse therm.config 3
-execute unless score #flameite_fuse therm.config matches 0.. run scoreboard players set #flameite_fuse therm.config 3
-execute unless score #rosite_fuse therm.config matches 0.. run scoreboard players set #rosite_fuse therm.config 3
+execute unless score #flameite_fuse therm.config matches 0.. run scoreboard players set #flameite_fuse therm.config 2
+execute unless score #rosite_fuse therm.config matches 0.. run scoreboard players set #rosite_fuse therm.config 2
 execute unless score #pinite_fuse therm.config matches 0.. run scoreboard players set #pinite_fuse therm.config 0
 
 # cold fuse
-execute unless score #cryonova_fuse therm.config matches 0.. run scoreboard players set #cryonova_fuse therm.config 5
+execute unless score #cryonova_fuse therm.config matches 0.. run scoreboard players set #cryonova_fuse therm.config 15
 execute unless score #cryobomb_fuse therm.config matches 0.. run scoreboard players set #cryobomb_fuse therm.config 3
-execute unless score #cryocherry_fuse therm.config matches 0.. run scoreboard players set #cryocherry_fuse therm.config 3
+execute unless score #cryocherry_fuse therm.config matches 0.. run scoreboard players set #cryocherry_fuse therm.config 2
 execute unless score #cryopop_fuse therm.config matches 0.. run scoreboard players set #cryopop_fuse therm.config 0
 
 

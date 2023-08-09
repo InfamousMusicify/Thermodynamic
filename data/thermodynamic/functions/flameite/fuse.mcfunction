@@ -10,10 +10,10 @@ scoreboard players add @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fus
 # score remover
 scoreboard players remove @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=1..}] flameite 1
 # warning particles and sounds
-execute unless score #flameite_vis therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=1..,therm_track=20..}] run function thermodynamic:flameite/fuse_vis
-execute unless score #flameite_sfx therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=1..,therm_track=20..}] run function thermodynamic:flameite/fuse_sfx
+execute unless score #flameite_vis therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=1..,therm_track=25..}] run function thermodynamic:flameite/fuse_vis
+execute unless score #flameite_sfx therm.config matches 1.. at @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=1..,therm_track=25..}] run function thermodynamic:flameite/fuse_sfx
 
-scoreboard players set @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=1..,therm_track=20..}] therm_track 0
+scoreboard players set @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=1..,therm_track=25..}] therm_track 0
 # fire the bij
 execute at @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=0}] run function thermodynamic:flameite/flameite
 

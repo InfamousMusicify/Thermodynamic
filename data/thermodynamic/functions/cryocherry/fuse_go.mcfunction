@@ -4,5 +4,5 @@ tag @s add cryocherry_fused
 # warning particles and sounds
 execute unless score #cryocherry_vis therm.config matches 1.. at @s run particle minecraft:soul_fire_flame ~ ~.55 ~ 0 0 0 0.1 100 force
 #execute unless score #cryocherry_vis therm.config matches 1.. at @s run 
-execute unless score #cryocherry_sfx therm.config matches 1.. at @s run playsound minecraft:block.glass.break master @a[distance=..25]
+execute unless score #cryocherry_sfx therm.config matches 1.. at @s run playsound minecraft:block.glass.break master @a[distance=..20]
 
