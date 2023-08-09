@@ -38,17 +38,17 @@ execute if score #quick_mine therm.config matches 1.. run function thermodynamic
 # conduit
 fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
 # water itself
-fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace #minecraft:waterlog
-fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace #minecraft:waterlog
-fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace #minecraft:waterlog
-# Waterlogged
-fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
-fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
-fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace #minecraft:drylog[waterlogged=true]
-# Ice
-fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:air replace minecraft:ice
-fill ~ ~1 ~ ~ ~-1 ~ minecraft:air replace minecraft:ice
+fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:air replace #minecraft:waterlog
+fill ~ ~1 ~ ~ ~-1 ~ minecraft:air replace #minecraft:waterlog
 
+# Waterlogged
+fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:air replace #minecraft:drylog[waterlogged=true]
+fill ~ ~1 ~ ~ ~-1 ~ minecraft:air replace #minecraft:drylog[waterlogged=true]
+
+# Ice
+fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace minecraft:ice
+fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace minecraft:ice
+fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace minecraft:ice
 
 
 ####################### change to smaller sizes!

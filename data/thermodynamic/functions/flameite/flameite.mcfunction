@@ -12,6 +12,11 @@ fill ~ ~ ~ ~ ~ ~ minecraft:basalt
 fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:basalt replace minecraft:magma_block
 fill ~-2 ~ ~-2 ~2 ~ ~2 minecraft:basalt replace minecraft:magma_block
 
+
+# bedrock melter
+execute if score #quick_mine therm.config matches 1.. run fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:magma_block replace minecraft:bedrock
+execute if score #quick_mine therm.config matches 1.. run fill ~ ~1 ~ ~ ~-1 ~ minecraft:magma_block replace minecraft:bedrock
+
 # blow away dust
 # non game breaking destroy center blast
 execute if score #quick_mine therm.config matches 1.. run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace #minecraft:cinderlog

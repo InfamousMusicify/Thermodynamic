@@ -4,8 +4,8 @@
         "description": ["",
             {"text":"Create a tiny hot blast!","color":"green"},{"text":"\n"},
             {"text":"Place Coal Ore on Magma \nto create Rosite.","color":"gold"},{"text":"\n"},
-            {"text":"Turn less obsidian to magma, \nevaporate less water/ice.","color":"gold"},{"text":"\n"},
-            {"text":"Standing too close will hurt! a little.","color":"red"}
+            {"text":"Turn an obsidian to magma, \nevaporate a water/ice.","color":"gold"},{"text":"\n"},
+            {"text":"Standing too close will hurt... a little.","color":"red"}
             ],
         "icon": {
             "item": "minecraft:coal_ore"
