@@ -1,7 +1,7 @@
 ## [Releases](https://github.com/InfamousMusicify/Thermodynamic/releases/) - [Tags](https://github.com/InfamousMusicify/Thermodynamic/tags/) - [Branches](https://github.com/InfamousMusicify/Thermodynamic/branches) - [Archive](https://github.com/InfamousMusicify/Thermodynamic/releases/tag/Archive)     
 
 
-### [🔗1.20](https://github.com/InfamousMusicify/Thermodynamic/releases/download/1.20/Thermodynamic_V2.4.2-1.20.zip)      
+### [🔗1.20](https://github.com/InfamousMusicify/Thermodynamic/releases/download/1.20/Thermodynamic_V2.5.0-1.20.zip)      
 
 #### Versions below are different from newer:
 
