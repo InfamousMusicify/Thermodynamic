@@ -13,12 +13,15 @@ __Create a super cold blast!  Melt Pesky Obsidian!__
     Cryo-Nova:            Netherite Block on Blue Ice (Huge)
     Cryo-Bomb:            Blue Ice block on a Magma Block (Large)
     Cryo-Cherry:          Packed Ice on a Magma Block (Medium)
-    Cryo-Pop:             Ice on a Magma Block (small)
+    Cryo-Pop:             Ice on a Magma Block (Small)
     
     The blast will turn nearby water/lava to its solid form.
 ### Hot:
     Aziroazide Azide:     Netherite Block on a Magma Block (Huge)
     Thermite:             Ancient Debris on a Magma Block (Large)
+    Flameite:             Quartz Block on a Magma Block (Medium)
+    Rosite:               Coal Block on a Magma Block (Small)
+    Pinite:               Quartz Ore on a Magma Block (Tiny)
     
     The reaction will turn nearby Obsidian into Magma. Water and Ice nearby will be evaporated.
 ### Standing too close will hurt.
@@ -41,12 +44,16 @@ __Commands:__
 
 __Warnings and more info:__   
 
-    * Azide will melt thru bedrock and a few other things near the center of the blast.   
-   
+
     * When using /trigger thermodynamic click the desired setting, a msg will pop up, click the new msg to edit the setting.   
       You have 60 seconds to edit a setting before it switches back to choosing a setting.
     * Each Armorstand will be killed after 5 minutes for performance and stopping certain edge case bugs.   
     
+    * Quick Mine:    
+      Hot Bombs:    Melts thru bedrock and a few other things near the center of the blast.
+                    Blows away dirt and dust and "weaker" blocks.    
+      Cold Bombs:   Freeze netherrack and nether type stuff near center of the blasts.
+   
     * Bombs placed at the bottom or top of the world at world limit might fail to trigger.  cant detect magma, cmds fail.
       If it does trigger and you are within 9 blocks of the void, some of the fill commands might fail and you might waste some ammo...
   
