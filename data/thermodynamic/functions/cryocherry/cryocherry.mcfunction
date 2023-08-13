@@ -9,6 +9,10 @@ fill ~ ~ ~ ~ ~ ~ minecraft:air
 fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace minecraft:magma_block
 fill ~-2 ~ ~-2 ~2 ~ ~2 minecraft:air replace minecraft:magma_block
 
+# dust nether
+execute if score #quick_mine therm.config matches 1.. run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace #minecraft:netherdustlog
+execute if score #quick_mine therm.config matches 1.. run fill ~-2 ~ ~-2 ~2 ~ ~2 minecraft:air replace #minecraft:netherdustlog
+
 # lava Killer
 fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:air replace minecraft:lava
 fill ~ ~1 ~ ~ ~-1 ~ minecraft:air replace minecraft:lava
@@ -22,6 +26,10 @@ fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:basalt replace minecraft:magma_block
 fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:basalt replace minecraft:magma_block
 fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:basalt replace minecraft:magma_block
 
+# freeze nether
+execute if score #quick_mine therm.config matches 1.. run fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:basalt replace #minecraft:netherlog
+execute if score #quick_mine therm.config matches 1.. run fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:basalt replace #minecraft:netherlog
+execute if score #quick_mine therm.config matches 1.. run fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:basalt replace #minecraft:netherlog
 
 # conduit
 fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
@@ -43,7 +51,7 @@ fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:ice replace #minecraft:drylog[waterlogged=tr
 
 
 # effect  (Chains+, Netherite Chestplate, Thermodynamic armor, and Armored Elytras will all make you immune to the blasts.)
-execute unless score #cryocherry_efct therm.config matches 1.. as @e[sort=nearest,distance=..30] unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, tag: {armElyData: {chestplate: {id: "minecraft:netherite_chestplate"}}}}]}] unless entity @s[nbt={Inventory:[{Slot:101b, tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=cryocherry_entity,limit=1,sort=nearest] run function thermodynamic:cryocherry/effect
+execute unless score #cryocherry_efct therm.config matches 1.. as @e[sort=nearest,distance=..5] unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, tag: {armElyData: {chestplate: {id: "minecraft:netherite_chestplate"}}}}]}] unless entity @s[nbt={Inventory:[{Slot:101b, tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=cryocherry_entity,limit=1,sort=nearest] run function thermodynamic:cryocherry/effect
 
 # Viusals
 execute unless score #cryocherry_vis therm.config matches 1.. run function thermodynamic:cryocherry/particles
