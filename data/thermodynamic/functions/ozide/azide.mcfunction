@@ -4,7 +4,8 @@
 #
 
 # kills ancinet debris better
-fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:netherite_block
+fill ~ ~ ~ ~ ~ ~ minecraft:basalt
+#fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:netherite_block
 # magma block killer
 #fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace minecraft:magma_block
 fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace minecraft:magma_block
@@ -37,7 +38,7 @@ fill ~-22 ~-7 ~-22 ~22 ~7 ~22 minecraft:magma_block replace minecraft:obsidian
 fill ~-23 ~-6 ~-23 ~23 ~6 ~23 minecraft:magma_block replace minecraft:obsidian
 fill ~-24 ~-5 ~-24 ~24 ~5 ~24 minecraft:magma_block replace minecraft:obsidian
 # melt everything -stones -sand
-execute if score #quick_mine therm.config matches 1.. run function thermodynamic:azide/melt
+execute if score #quick_mine therm.config matches 1.. run function thermodynamic:ozide/melt
 
 
 # conduit
@@ -65,12 +66,12 @@ fill ~-20 ~-3 ~-20 ~20 ~3 ~20 minecraft:air replace minecraft:ice
 
 
 # effect  (Chains+, Netherite Chestplate, Thermodynamic armor, and Netherite Armored Elytras will all make you immune to the blasts.)
-execute unless score #azide_efct therm.config matches 1.. as @e[sort=nearest,distance=..21] unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, tag: {armElyData: {chestplate: {id: "minecraft:netherite_chestplate"}}}}]}] unless entity @s[nbt={Inventory:[{Slot:101b, tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=azide_entity,limit=1,sort=nearest] run function thermodynamic:azide/effect
+execute unless score #azide_efct therm.config matches 1.. as @e[sort=nearest,distance=..21] unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, tag: {armElyData: {chestplate: {id: "minecraft:netherite_chestplate"}}}}]}] unless entity @s[nbt={Inventory:[{Slot:101b, tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=azide_entity,limit=1,sort=nearest] run function thermodynamic:ozide/effect
 
 # Viusals
-execute unless score #azide_vis therm.config matches 1.. run function thermodynamic:azide/particles
+execute unless score #azide_vis therm.config matches 1.. run function thermodynamic:ozide/particles
 # SFX
-execute unless score #azide_sfx therm.config matches 1.. run function thermodynamic:azide/sounds
+execute unless score #azide_sfx therm.config matches 1.. run function thermodynamic:ozide/sounds
 
 # remove fuse tag from as
 tag @e[type=minecraft:armor_stand,tag=azide_entity,limit=1,sort=nearest,distance=..0.2] remove fuse

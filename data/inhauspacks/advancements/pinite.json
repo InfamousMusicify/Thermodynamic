@@ -3,12 +3,12 @@
         "title": "Pinite                                                                                    ",
         "description": ["",
             {"text":"Create a tiny hot blast!","color":"green"},{"text":"\n"},
-            {"text":"Place Coal Ore on Magma \nto create Rosite.","color":"gold"},{"text":"\n"},
+            {"text":"Place Nether Quartz Ore on Magma \nto create Rosite.","color":"gold"},{"text":"\n"},
             {"text":"Turn an obsidian to magma, \nevaporate a water/ice.","color":"gold"},{"text":"\n"},
             {"text":"Standing too close will hurt... a little.","color":"red"}
             ],
         "icon": {
-            "item": "minecraft:coal_ore"
+            "item": "minecraft:nether_quartz_ore"
         },
         "announce_to_chat": false,
         "show_toast": false

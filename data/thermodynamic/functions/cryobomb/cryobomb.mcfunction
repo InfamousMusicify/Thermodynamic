@@ -3,7 +3,8 @@
 #
 
 # kill main source
-fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:blue_ice
+fill ~ ~ ~ ~ ~ ~ minecraft:air
+#fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:blue_ice
 # Magma Block Killer
 fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace minecraft:magma_block
 fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace minecraft:magma_block

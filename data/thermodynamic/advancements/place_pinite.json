@@ -9,7 +9,7 @@
               "predicate": {
                 "block": {
                   "blocks": [
-                    "minecraft:coal_ore"
+                    "minecraft:nether_quartz_ore"
                   ]
                 }
               }

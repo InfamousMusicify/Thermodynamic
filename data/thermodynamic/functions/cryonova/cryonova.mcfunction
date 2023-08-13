@@ -5,8 +5,9 @@
 #
 #
 
-# kills main source  ---for bigger bpmbs players may be able to get some ammo back, but is this really a huge issue given the risk and cost overall and how little you can actually move in this fashion rapid placing netherite....
-fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:netherite_block
+# kills main source  ---old note(fied): for bigger bpmbs players may be able to get some ammo back, but is this really a huge issue given the risk and cost overall and how little you can actually move in this fashion rapid placing netherite....
+fill ~ ~ ~ ~ ~ ~ minecraft:air
+#fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:netherite_block
 # blue ice killer  -secondary main killer
 #fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace minecraft:blue_ice
 fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace minecraft:blue_ice

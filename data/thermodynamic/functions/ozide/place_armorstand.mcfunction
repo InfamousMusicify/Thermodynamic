@@ -37,15 +37,15 @@ execute as @e[type=armor_stand,tag=azide_entity,limit=1,sort=nearest] if score @
 ##### execute at @e[type=armor_stand,tag=azide_entity] positioned ~ 0 ~ run kill @e[type=armor_stand,tag=azide_entity,limit=1,sort=nearest,distance=..1]
 ##### execute at @e[type=armor_stand,tag=azide_entity] positioned ~ -64 ~ run kill @e[type=armor_stand,tag=azide_entity,limit=1,sort=nearest,distance=..1]
 
-#OG# execute at @e[type=minecraft:armor_stand,tag=azide_entity] run function thermodynamic:azide
+#OG# execute at @e[type=minecraft:armor_stand,tag=azide_entity] run function thermodynamic:ozide
 
 
 # 0 timer, unless sneakin
-execute unless entity @s[scores={azide=1..}] unless entity @s[scores={therm_sneak=1..}] at @e[type=minecraft:armor_stand,tag=azide_entity,tag=!fuse,limit=1,sort=nearest] run function thermodynamic:azide/azide
+execute unless entity @s[scores={azide=1..}] unless entity @s[scores={therm_sneak=1..}] at @e[type=minecraft:armor_stand,tag=azide_entity,tag=!fuse,limit=1,sort=nearest] run function thermodynamic:ozide/azide
 # instant upon crouch
-execute unless score #azide_sneak therm.config matches 1.. if entity @s[scores={therm_sneak=1..},tag=!therm_sneak_off] at @e[type=minecraft:armor_stand,tag=azide_entity,tag=!fuse,limit=1,sort=nearest] run function thermodynamic:azide/azide
+execute unless score #azide_sneak therm.config matches 1.. if entity @s[scores={therm_sneak=1..},tag=!therm_sneak_off] at @e[type=minecraft:armor_stand,tag=azide_entity,tag=!fuse,limit=1,sort=nearest] run function thermodynamic:ozide/azide
 
 # sneak off
-execute if entity @s[scores={azide=1..},tag=therm_sneak_off] run function thermodynamic:azide/fuse_starting
+execute if entity @s[scores={azide=1..},tag=therm_sneak_off] run function thermodynamic:ozide/fuse_starting
 # default
-execute if entity @s[scores={therm_sneak=0},tag=!therm_sneak_off] run function thermodynamic:azide/fuse_starting
+execute if entity @s[scores={therm_sneak=0},tag=!therm_sneak_off] run function thermodynamic:ozide/fuse_starting

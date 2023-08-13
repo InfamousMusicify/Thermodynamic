@@ -5,7 +5,8 @@
 
 
 # kill main source
-fill ~ ~ ~ ~ ~ ~ minecraft:basalt replace minecraft:coal_ore
+fill ~ ~ ~ ~ ~ ~ minecraft:basalt
+#fill ~ ~ ~ ~ ~ ~ minecraft:basalt replace minecraft:nether_quartz_ore
 # Magma Block Killer
 fill ~-1 ~ ~ ~1 ~ ~ minecraft:basalt replace minecraft:magma_block
 fill ~ ~-1 ~ ~ ~1 ~ minecraft:basalt replace minecraft:magma_block

@@ -4,7 +4,7 @@
 #schedule if 1 exists 
 execute as @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=1..},limit=1] run schedule function thermodynamic:flameite/fuse 1t
 # kill if no netherite left
-execute as @e[type=armor_stand,tag=flameite_entity] at @s positioned ~ ~ ~ unless block ~ ~ ~ minecraft:gold_block run kill @s
+execute as @e[type=armor_stand,tag=flameite_entity] at @s positioned ~ ~ ~ unless block ~ ~ ~ minecraft:quartz_block run kill @s
 
 scoreboard players add @e[type=minecraft:armor_stand,tag=flameite_entity,tag=fuse,scores={flameite=1..}] therm_track 1
 # score remover

@@ -19,6 +19,6 @@
       }
     },
     "rewards": {
-      "function": "thermodynamic:azide/place"
+      "function": "thermodynamic:ozide/place"
     }
   }
