@@ -1,11 +1,10 @@
-
 # [🎥Thermodynamic](https://youtu.be/pgQl1X-ksjs)
 ### Thermodynamic  - Minecraft: Java Edition - Data Pack
 
 __Create a super cold blast!  Melt Pesky Obsidian!__   
 *Cool lava and freeze water!  Evaporate water and ice!*     
 
-### [🔗Download🔗](https://github.com/InfamousMusicify/Thermodynamic/blob/master/Downloads.md) - [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md)   
+### [🔗Download🔗](https://github.com/InfamousMusicify/Thermodynamic/blob/master/Downloads.md) - [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md) - [Discord](https://discord.gg/T5XhN4tXgW)     
 
 ### Hit the advancements key to see in game info and help!
 
@@ -19,7 +18,7 @@ __Create a super cold blast!  Melt Pesky Obsidian!__
 ### Hot:
     Aziroazide Azide:     Netherite Block on a Magma Block (Huge)
     Thermite:             Ancient Debris on a Magma Block (Large)
-    Flameite:             Quartz Block on a Magma Block (Medium)
+    Flameite:             Quartz Block on a Coal Block (Medium)
     Rosite:               Coal Block on a Magma Block (Small)
     Pinite:               Quartz Ore on a Magma Block (Tiny)
     
@@ -56,12 +55,13 @@ __Warnings and more info:__
    
     * Bombs placed at the bottom or top of the world at world limit might fail to trigger.  cant detect magma, cmds fail.
       If it does trigger and you are within 9 blocks of the void, some of the fill commands might fail and you might waste some ammo...
+    * There may be a few minor bugs, this is intended as a tool.  please report any noteable bugs on the discord or in the github issue section.
   
 [How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)  
 
 __OG Packs:   
-[Thermite🔗](https://github.com/InfamousMusicify/Thermite)  
-[Cryo-Bomb🔗](https://github.com/InfamousMusicify/Cryo-Bomb/)__  
+[Thermite🔗](https://github.com/InfamousMusicify/Thermite) - [Cryo-Bomb🔗](https://github.com/InfamousMusicify/Cryo-Bomb/)__    
+
 
 Original pack: [Lava Sponge](https://www.planetminecraft.com/data-pack/lava-sponges-1-16/)    
 By: Cortexiphen  
