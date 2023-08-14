@@ -8,6 +8,11 @@
 # kill main source
 fill ~ ~ ~ ~ ~ ~ minecraft:basalt
 #fill ~ ~ ~ ~ ~ ~ minecraft:basalt replace minecraft:obsidian
+# secondary source killer
+fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace minecraft:coal_block
+fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace minecraft:coal_block
+fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace minecraft:coal_block
+
 # Magma Block Killer
 fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:basalt replace minecraft:magma_block
 fill ~-2 ~ ~-2 ~2 ~ ~2 minecraft:basalt replace minecraft:magma_block

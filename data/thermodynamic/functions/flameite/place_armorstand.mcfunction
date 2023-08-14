@@ -23,7 +23,7 @@ scoreboard players set @e[type=minecraft:armor_stand,tag=flameite_entity,limit=1
 
 #OG# execute at @e[type=minecraft:armor_stand,tag=flameite_entity] run function thermodynamic:flameite/flameite
 
-execute as @e[type=armor_stand,tag=flameite_entity,limit=1,sort=nearest] at @s positioned ~ ~ ~ store result score @s therm_void unless block ~1 ~ ~ minecraft:magma_block unless block ~ ~ ~1 minecraft:magma_block unless block ~-1 ~ ~ minecraft:magma_block unless block ~ ~ ~-1 minecraft:magma_block unless block ~ ~1 ~ minecraft:magma_block unless block ~ ~-1 ~ minecraft:magma_block run kill @s
+execute as @e[type=armor_stand,tag=flameite_entity,limit=1,sort=nearest] at @s positioned ~ ~ ~ store result score @s therm_void unless block ~1 ~ ~ minecraft:coal_block unless block ~ ~ ~1 minecraft:coal_block unless block ~-1 ~ ~ minecraft:coal_block unless block ~ ~ ~-1 minecraft:coal_block unless block ~ ~1 ~ minecraft:coal_block unless block ~ ~-1 ~ minecraft:coal_block run kill @s
 execute as @e[type=armor_stand,tag=flameite_entity,limit=1,sort=nearest] if score @s therm_void matches 0 run kill @s
 
 # execute at @e[type=armor_stand,tag=flameite_entity] positioned ~ 0 ~ run kill @e[type=armor_stand,tag=flameite_entity,limit=1,sort=nearest,distance=..1]

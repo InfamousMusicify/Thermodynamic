@@ -3,8 +3,8 @@
         "title": "Cryo-Cherry                                                                                 ",
         "description": ["",
             {"text":"Create a cold blast!","color":"green"},{"text":"\n"},
-            {"text":"Place Packed Ice on Magma \nto create a Cryo-Cherry.","color":"gold"},{"text":"\n"},
-            {"text":"Turn lava to magma, freezes less water.","color":"gold"},{"text":"\n"},
+            {"text":"Place Packed Ice on Magma\nto create a Cryo-Cherry.","color":"gold"},{"text":"\n"},
+            {"text":"Turn less lava to magma,\nfreeze less water.","color":"gold"},{"text":"\n"},
             {"text":"Standing too close will hurt!","color":"red"}
             ],
         "icon": {
