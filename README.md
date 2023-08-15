@@ -4,7 +4,7 @@
 __Create a super cold blast!  Melt Pesky Obsidian!__   
 *Cool lava and freeze water!  Evaporate water and ice!*     
 
-### [🔗Download🔗](https://github.com/InfamousMusicify/Thermodynamic/blob/master/Downloads.md) - [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md) - [Discord](https://discord.gg/T5XhN4tXgW)     
+### [🔗Download🔗](https://github.com/InfamousMusicify/Thermodynamic/blob/master/Downloads.md) - [🔗Textures🔗](https://github.com/InfamousMusicify/InHaus-Textures/blob/master/Downloads.md) - [🔊Discord](https://discord.gg/T5XhN4tXgW)     
 
 ### Hit the advancements key to see in game info and help!
 
