@@ -4,6 +4,7 @@
 execute as @e[type=minecraft:armor_stand,tag=cryocherry_entity,tag=fuse,scores={cryocherry=1..},limit=1] run schedule function thermodynamic:cryocherry/fuse 1t
 # kill if no netherite left
 execute as @e[type=armor_stand,tag=cryocherry_entity] at @s positioned ~ ~ ~ unless block ~ ~ ~ minecraft:packed_ice run kill @s
+execute as @e[type=armor_stand,tag=azide_entity] at @s positioned ~ ~ ~ unless block ~1 ~ ~ minecraft:magma_block unless block ~ ~ ~1 minecraft:magma_block unless block ~-1 ~ ~ minecraft:magma_block unless block ~ ~ ~-1 minecraft:magma_block unless block ~ ~1 ~ minecraft:magma_block unless block ~ ~-1 ~ minecraft:magma_block run kill @s
 
 scoreboard players add @e[type=minecraft:armor_stand,tag=cryocherry_entity,tag=fuse,scores={cryocherry=1..}] therm_track 1
 # score remover

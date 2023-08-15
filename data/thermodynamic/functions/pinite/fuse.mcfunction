@@ -5,6 +5,7 @@
 execute as @e[type=minecraft:armor_stand,tag=pinite_entity,tag=fuse,scores={pinite=1..},limit=1] run schedule function thermodynamic:pinite/fuse 1t
 # kill if no netherite left
 execute as @e[type=armor_stand,tag=pinite_entity] at @s positioned ~ ~ ~ unless block ~ ~ ~ minecraft:nether_quartz_ore run kill @s
+execute as @e[type=armor_stand,tag=azide_entity] at @s positioned ~ ~ ~ unless block ~1 ~ ~ minecraft:magma_block unless block ~ ~ ~1 minecraft:magma_block unless block ~-1 ~ ~ minecraft:magma_block unless block ~ ~ ~-1 minecraft:magma_block unless block ~ ~1 ~ minecraft:magma_block unless block ~ ~-1 ~ minecraft:magma_block run kill @s
 
 scoreboard players add @e[type=minecraft:armor_stand,tag=pinite_entity,tag=fuse,scores={pinite=1..}] therm_track 1
 # score remover

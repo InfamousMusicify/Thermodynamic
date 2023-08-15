@@ -5,6 +5,7 @@
 execute as @e[type=minecraft:armor_stand,tag=rosite_entity,tag=fuse,scores={rosite=1..},limit=1] run schedule function thermodynamic:rosite/fuse 1t
 # kill if no netherite left
 execute as @e[type=armor_stand,tag=rosite_entity] at @s positioned ~ ~ ~ unless block ~ ~ ~ minecraft:coal_block run kill @s
+execute as @e[type=armor_stand,tag=azide_entity] at @s positioned ~ ~ ~ unless block ~1 ~ ~ minecraft:magma_block unless block ~ ~ ~1 minecraft:magma_block unless block ~-1 ~ ~ minecraft:magma_block unless block ~ ~ ~-1 minecraft:magma_block unless block ~ ~1 ~ minecraft:magma_block unless block ~ ~-1 ~ minecraft:magma_block run kill @s
 
 scoreboard players add @e[type=minecraft:armor_stand,tag=rosite_entity,tag=fuse,scores={rosite=1..}] therm_track 1
 # score remover
