@@ -1,5 +1,5 @@
 
-say trigger
+
 # Debate: make 0 work, fire on -1 in tick?
 # would have to rewrite this logic a bit and may have to add a score tweaker to new and logout
 
