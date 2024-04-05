@@ -3,7 +3,7 @@
 
 ### [🔗1.20](https://github.com/InfamousMusicify/Thermodynamic/releases/download/1.20/Thermodynamic_V2.6.0-1.20.zip)      
 
-### [🔗1.19](https://github.com/InfamousMusicify/Thermodynamic/releases/download/1.19/Thermodynamic_V2.5.3-1.19.zip) - [🔗1.19.4](https://github.com/InfamousMusicify/Thermodynamic/releases/download/1.19/Thermodynamic_V2.5.3-1.19.zip)   
+### [🔗1.19](https://github.com/InfamousMusicify/Thermodynamic/releases/download/1.19/Thermodynamic_V2.6.0-1.19.zip) - [🔗1.19.4](https://github.com/InfamousMusicify/Thermodynamic/releases/download/1.19.4/Thermodynamic_V2.6.0-1.19.4.zip)   
 
 #### Versions below are different from newest:
 ### [🔗1.18](https://github.com/InfamousMusicify/Thermodynamic/releases/download/Archive/Thermodynamic_V1.3.18.zip) - [🔗1.18.2](https://github.com/InfamousMusicify/Thermodynamic/releases/download/Archive/Thermodynamic_V1.3.18.zip)    
