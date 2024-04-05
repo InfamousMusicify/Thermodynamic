@@ -25,6 +25,7 @@ execute unless score @s cryopop matches 0.. run scoreboard players operation @s 
 function thermodynamic:trigger/tag_remove
 
 
-scoreboard players set @s therm.logout 0
+scoreboard players set @s therm_logout 0
 
 
+#say hi
