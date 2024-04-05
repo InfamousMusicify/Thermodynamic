@@ -27,9 +27,9 @@ fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:basalt replace minecraft:magma_block
 fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:basalt replace minecraft:magma_block
 
 # freeze nether
-execute if score #quick_mine therm.config matches 1.. run fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:basalt replace #minecraft:netherlog
-execute if score #quick_mine therm.config matches 1.. run fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:basalt replace #minecraft:netherlog
-execute if score #quick_mine therm.config matches 1.. run fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:basalt replace #minecraft:netherlog
+execute if score #quick_mine therm.config matches 2.. run fill ~-3 ~-4 ~-3 ~3 ~4 ~3 minecraft:basalt replace #minecraft:netherlog
+execute if score #quick_mine therm.config matches 2.. run fill ~-4 ~-3 ~-4 ~4 ~3 ~4 minecraft:basalt replace #minecraft:netherlog
+execute if score #quick_mine therm.config matches 2.. run fill ~-5 ~-2 ~-5 ~5 ~2 ~5 minecraft:basalt replace #minecraft:netherlog
 
 # conduit
 fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]

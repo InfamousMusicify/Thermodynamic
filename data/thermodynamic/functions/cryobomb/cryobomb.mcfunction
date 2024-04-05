@@ -10,6 +10,7 @@ fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace minecraft:magma_block
 fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace minecraft:magma_block
 fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:air replace minecraft:magma_block
 
+# dust  =1..
 execute if score #quick_mine therm.config matches 1.. run function thermodynamic:cryobomb/dust
 
 # lava Killer
@@ -28,7 +29,8 @@ fill ~-5 ~-6 ~-5 ~5 ~6 ~5 minecraft:basalt replace minecraft:magma_block
 fill ~-6 ~-5 ~-6 ~6 ~5 ~6 minecraft:basalt replace minecraft:magma_block
 fill ~-7 ~-4 ~-7 ~7 ~4 ~7 minecraft:basalt replace minecraft:magma_block
 
-execute if score #quick_mine therm.config matches 1.. run function thermodynamic:cryobomb/freeze
+# freeze  =2..
+execute if score #quick_mine therm.config matches 2.. run function thermodynamic:cryobomb/freeze
 
 # conduit
 fill ~-7 ~-7 ~-7 ~7 ~7 ~7 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]

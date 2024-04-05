@@ -13,13 +13,13 @@ fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace minecraft:magma_block
 fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:air replace minecraft:magma_block
 
 # bedrock melter
-execute if score #quick_mine therm.config matches 1.. run fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:magma_block replace minecraft:bedrock
-execute if score #quick_mine therm.config matches 1.. run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:magma_block replace minecraft:bedrock
-execute if score #quick_mine therm.config matches 1.. run fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:magma_block replace minecraft:bedrock
+execute if score #quick_mine therm.config matches 3.. run fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:magma_block replace minecraft:bedrock
+execute if score #quick_mine therm.config matches 3.. run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:magma_block replace minecraft:bedrock
+execute if score #quick_mine therm.config matches 3.. run fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:magma_block replace minecraft:bedrock
 # non game breaking destroy center blast
-execute if score #quick_mine therm.config matches 1.. run fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace #minecraft:dustlog
-execute if score #quick_mine therm.config matches 1.. run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace #minecraft:dustlog
-execute if score #quick_mine therm.config matches 1.. run fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:air replace #minecraft:dustlog
+execute if score #quick_mine therm.config matches 2.. run fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:air replace #minecraft:dustlog
+execute if score #quick_mine therm.config matches 2.. run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:air replace #minecraft:dustlog
+execute if score #quick_mine therm.config matches 2.. run fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:air replace #minecraft:dustlog
 # blast away weak blocks -smaller radius
 execute if score #quick_mine therm.config matches 1.. run fill ~-16 ~-7 ~-16 ~16 ~7 ~16 minecraft:air replace #minecraft:cinderlog
 execute if score #quick_mine therm.config matches 1.. run fill ~-17 ~-6 ~-17 ~17 ~6 ~17 minecraft:air replace #minecraft:cinderlog

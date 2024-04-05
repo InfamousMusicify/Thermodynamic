@@ -30,9 +30,9 @@ fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:basalt replace minecraft:magma_block
 fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:basalt replace minecraft:magma_block
 
 # freeze nether
-execute if score #quick_mine therm.config matches 1.. run fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:basalt replace #minecraft:netherlog
-execute if score #quick_mine therm.config matches 1.. run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:basalt replace #minecraft:netherlog
-execute if score #quick_mine therm.config matches 1.. run fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:basalt replace #minecraft:netherlog
+execute if score #quick_mine therm.config matches 2.. run fill ~-1 ~-3 ~-1 ~1 ~3 ~1 minecraft:basalt replace #minecraft:netherlog
+execute if score #quick_mine therm.config matches 2.. run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:basalt replace #minecraft:netherlog
+execute if score #quick_mine therm.config matches 2.. run fill ~-3 ~-1 ~-3 ~3 ~1 ~3 minecraft:basalt replace #minecraft:netherlog
 
 # conduit
 fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
